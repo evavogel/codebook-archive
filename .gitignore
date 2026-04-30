@@ -1,0 +1,37 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+*_token.txt
+api_key.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Project data
+data/raw/
+data/text/
+data/cache/
+*.sqlite
+*.sqlite-journal
+*.duckdb
+*.log
+
+# Generated CSVs (review queue is rebuilt from the DB)
+out/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Claude Code local
+.claude/settings.local.json

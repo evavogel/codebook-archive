@@ -1,0 +1,83 @@
+# Keyword sets for the discovery stage.
+# A candidate is kept if it matches at least one "codebook_term"
+# AND at least one "topic_term" in title, description, or filename.
+#
+# Tune these as you review candidates. Over-broad terms (e.g. just "politics")
+# create noise; over-narrow terms miss good codebooks. Iterate.
+
+[codebook_terms]
+en = [
+    "codebook",
+    "code book",
+    "coding scheme",
+    "coding manual",
+    "coding instructions",
+    "coding guidelines",
+    "annotation guidelines",
+    "annotation scheme",
+    "annotation manual",
+    "content analysis protocol",
+]
+de = [
+    "codebuch",
+    "kodierbuch",
+    "kodierschema",
+    "kodierhandbuch",
+    "kodieranleitung",
+    "kodieranweisung",
+    "codieranleitung",
+    "inhaltsanalyse",
+    "annotationsschema",
+    "annotationsrichtlinien",
+]
+
+[topic_terms]
+en = [
+    "political",
+    "politics",
+    "election",
+    "campaign",
+    "populis",          # populism, populist
+    "partisan",
+    "negative campaigning",
+    "incivility",
+    "polarization",
+    "polarisation",
+    "social media",
+    "twitter",
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube",
+    "influencer",
+    "disinformation",
+    "misinformation",
+    "propaganda",
+    "ideolog",          # ideology, ideological
+    "framing",
+    "agenda setting",
+    "political communication",
+    "hate speech",
+    "extremism",
+]
+de = [
+    "politisch",
+    "politik",
+    "wahl",
+    "wahlkampf",
+    "populis",          # populismus, populistisch
+    "parteilich",
+    "polarisierung",
+    "negative campaigning",
+    "soziale medien",
+    "social media",
+    "desinformation",
+    "fehlinformation",
+    "propaganda",
+    "ideologi",
+    "framing",
+    "politische kommunikation",
+    "hassrede",
+    "extremismus",
+    "influencer",
+]
