@@ -1,0 +1,154 @@
+/* ── Colour palette matching emvogel.com (GitHub-flavoured) ─────────────── */
+[data-md-color-primary="custom"] {
+  --md-primary-fg-color:        #0366d6;
+  --md-primary-fg-color--light: #c8e1ff;
+  --md-primary-fg-color--dark:  #005cc5;
+  --md-primary-bg-color:        #ffffff;
+  --md-primary-bg-color--light: rgba(255, 255, 255, .7);
+}
+
+[data-md-color-accent="custom"] {
+  --md-accent-fg-color: #0366d6;
+}
+
+[data-md-color-scheme="default"] {
+  --md-typeset-color:   #24292e;
+  --md-typeset-a-color: #0366d6;
+  --md-default-bg-color: #ffffff;
+  --md-code-bg-color:   #f6f8fa;
+}
+
+/* ── Filter bar ──────────────────────────────────────────────────────────── */
+#cb-controls {
+  margin: 1.2rem 0 1rem;
+}
+
+#cb-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
+  align-items: center;
+  margin-bottom: .75rem;
+}
+
+#cb-filter-row span {
+  font-size: .8rem;
+  color: #586069;
+  margin-right: .2rem;
+}
+
+.cb-tag {
+  display: inline-block;
+  padding: .25rem .65rem;
+  border: 1px solid #d1d5da;
+  border-radius: 2em;
+  background: #fff;
+  color: #24292e;
+  font-size: .78rem;
+  cursor: pointer;
+  transition: background .15s, color .15s, border-color .15s;
+}
+
+.cb-tag:hover {
+  background: #f1f8ff;
+  border-color: #0366d6;
+  color: #0366d6;
+}
+
+.cb-tag.active {
+  background: #0366d6;
+  border-color: #0366d6;
+  color: #fff;
+}
+
+.cb-tag .cb-count {
+  font-size: .72rem;
+  opacity: .75;
+  margin-left: .2rem;
+}
+
+#cb-search {
+  width: 100%;
+  max-width: 400px;
+  padding: .4rem .75rem;
+  border: 1px solid #d1d5da;
+  border-radius: 6px;
+  font-size: .85rem;
+  color: #24292e;
+  background: #fff;
+  outline: none;
+  transition: border-color .15s, box-shadow .15s;
+}
+
+#cb-search:focus {
+  border-color: #0366d6;
+  box-shadow: 0 0 0 3px rgba(3, 102, 214, .15);
+}
+
+#cb-count-label {
+  font-size: .8rem;
+  color: #586069;
+  margin-top: .5rem;
+}
+
+/* ── Disclaimer block ────────────────────────────────────────────────────── */
+.cb-disclaimer {
+  border: 1px solid #e1e4e8;
+  border-left: 4px solid #0366d6;
+  border-radius: 4px;
+  background: #f1f8ff;
+  padding: 1rem 1.2rem;
+  margin: 1.2rem 0 1.8rem;
+  font-size: .85rem;
+  color: #24292e;
+  line-height: 1.6;
+}
+
+.cb-disclaimer strong {
+  display: block;
+  margin-bottom: .4rem;
+  font-size: .9rem;
+  color: #0366d6;
+}
+
+/* ── Compact notice on individual codebook pages ─────────────────────────── */
+.cb-auto-notice {
+  border: 1px solid #e1e4e8;
+  border-radius: 4px;
+  background: #f6f8fa;
+  padding: .5rem 1rem;
+  margin: 0 0 1.5rem;
+  font-size: .82rem;
+  color: #586069;
+}
+
+.cb-auto-notice a {
+  color: #0366d6;
+}
+
+/* ── Classification section ──────────────────────────────────────────────── */
+.cb-classification {
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  background: #fafbfc;
+  padding: 1rem 1.25rem 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.cb-classification h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  color: #586069;
+  border-bottom: 1px solid #e1e4e8;
+  padding-bottom: .4rem;
+  margin-bottom: .8rem;
+}
+
+.cb-classification blockquote {
+  border-left: 3px solid #d1d5da;
+  color: #444d56;
+  font-style: italic;
+  margin: 0 0 .75rem;
+  padding: .3rem .8rem;
+}

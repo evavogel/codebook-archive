@@ -17,8 +17,6 @@
       
       
       
-        <link rel="next" href="tags/">
-      
       
         
       
@@ -54,6 +52,8 @@
       
     
     
+      <link rel="stylesheet" href="custom.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -70,7 +70,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -91,7 +91,9 @@
     
       
 
-<header class="md-header" data-md-component="header">
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="." title="Political Communication Codebook Archive" class="md-header__button md-logo" aria-label="Political Communication Codebook Archive" data-md-component="logo">
       
@@ -126,21 +128,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
-    
-      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
-      </label>
-    
-  
-    
-    
-    
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
-    
-      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
-      </label>
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
     
   
 </form>
@@ -215,75 +203,6 @@
       
         
           
-            
-<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
-  <div class="md-grid">
-    <ul class="md-tabs__list">
-      
-        
-  
-  
-  
-    
-  
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="." class="md-tabs__link">
-        
-  
-  
-    
-  
-  Codebook Archive
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="tags/" class="md-tabs__link">
-        
-  
-  
-    
-  
-  Browse by Tag
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="codebooks/101-news-on-instagram-and-tiktok/" class="md-tabs__link">
-          
-  
-  
-  Codebooks
-
-        </a>
-      </li>
-    
-  
-
-      
-    </ul>
-  </div>
-</nav>
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -297,10 +216,8 @@
                     
 
 
-  
 
-
-<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="." title="Political Communication Codebook Archive" class="md-nav__button md-logo" aria-label="Political Communication Codebook Archive" data-md-component="logo">
       
@@ -348,75 +265,6 @@
   <span class="md-ellipsis">
     
   
-    Codebook Archive
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="tags/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Browse by Tag
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
     Codebooks
   
 
@@ -425,3018 +273,7 @@
   
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Codebooks
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/101-news-on-instagram-and-tiktok/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    News on Instagram and TikTok
-  
-
-    
-  </span>
-  
-  
-
       </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/104-government-crisis-communication-on-instagram/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Government crisis communication on Instagram
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/105-navigating-credibility-on-tiktok-how-young-adults-/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Navigating Credibility on TikTok: How Young Adults Evaluate and Verify Information on the Platform
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/107-tiktok-s-system-of-curation-and-individual-and-col/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    TikTok's System of Curation and Individual and Collective Dynamics
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/109-conspiracytiktok/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    ConspiracyTikTok
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/118-algorithmic-ranking-of-divisive-expressions-in-you/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Algorithmic Ranking of Divisive Expressions in YouTube User Comments
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/119-anh-nge-typen-politischer-influencerkommunikation-/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Anhänge_Typen politischer Influencerkommunikation auf YouTube
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/120-supplementary-materials-youtube-videos-opposing-hi/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Supplementary Materials: YouTube Videos opposing Hillary Clinton
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/121-supplementary-materials-youtube-videos-opposing-do/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Supplementary Materials: YouTube videos opposing Donald Trump
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/123-popular-culture-as-a-vehicle-for-identity-represen/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Popular Culture as a Vehicle for Identity Representation: Social Media Influencers, Collective Identity Portrayals and Audience Engagement
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/124-adolescents-as-citizen-scientists-insights-into-th/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Adolescents as Citizen Scientists: Insights Into Their Exposure to Social Media Influencers’ Socio-Political Content
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/126-systematic-review-ai-influencers-and-persuasion/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Systematic review AI influencers and persuasion
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/127-prevalence-presentation-and-popularity-of-politica/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Prevalence, Presentation, and Popularity of Political Topics in Social Media Influencers’ Content Across Two Countries
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/129-intimate-and-opinion-oriented-communication-examin/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Intimate and Opinion-Oriented Communication? Examining Social Media Influencers’  Opinion Leader Potential Through Their Political Content
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/130-the-effect-of-logic-based-vs-fact-based-corrective/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    The effect of logic-based vs. fact-based corrective information on disinformation discernment
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/131-2026-02-02-emotional-impact-of-pro-russian-disinfo/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    2026-02-02 Emotional Impact of Pro-Russian Disinformation
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/132-the-effect-of-prebunking-vs-debunking-on-trust-in-/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    The effect of prebunking vs. debunking on trust in disinformation
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/134-identity-is-key-but-inoculation-helps-how-to-empow/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Identity is key, but Inoculation helps – how to empower Germans of Russian descent against pro-Kremlin disinformation
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/135-leaks-lies-and-lawns-a-multi-method-cross-platform/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Leaks, lies, and lawns: A multi-method, cross-platform study of political disinformation narratives
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/137-do-experts-agree-about-misinformation-evidence-fro/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Do Experts Agree About Misinformation? Evidence from Three Annual Surveys
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/138-an-analysis-of-studies-testing-digital-interventio/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    An Analysis of Studies Testing Digital Interventions to Inoculate against Misinformation: A Systematic Review
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/140-misinformation-in-transmission-chains/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Misinformation in Transmission Chains
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/141-misinfomet-metaphors-of-misinformation-mnr-cis-mip/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Misinfomet – Metaphors of Misinformation (MNR + CIS + MIP/MIPVU)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/142-social-truth-queries-effectively-reduce-the-percei/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Social Truth Queries Effectively Reduce the Perceived Accuracy of Misinformation Across Age Groups and Social Contexts
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/143-truth-seeking-vs-balance-the-credibility-dilemma-i/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Truth-seeking vs. Balance: The Credibility Dilemma in Correcting Political Misinformation
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/145-shield-or-sieve-correcting-visual-propaganda/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Shield or Sieve: Correcting visual propaganda
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/146-the-affective-power-of-multimodality-narrative-arc/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    The Affective Power of Multimodality: Narrative Arcs and     Algorithmic Engagement in Turkish Electoral Propaganda (2023)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/147-does-attitudinal-inoculation-confer-resistance-to-/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Does Attitudinal Inoculation Confer Resistance to Violent Extremist Propaganda? Assessing Mechanisms, Long-term Effects, and the Advantage of Visuals
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/148-threat-and-worry-often-go-together-salience-stands/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Threat and Worry (Often) Go Together; Salience Stands Apart – Patterns Across Descriptives, Correlations, and Ideological Associations
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/150-ideology-religion-and-the-justification-of-across-/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Ideology, Religion, and the Justification of Across Moral Violations and Unfamiliar Issues: Evidence from Indonesia
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/151-protest-movements-and-the-mainstreaming-of-radical/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Protest movements and the mainstreaming of radical and extremist ideologies: The case of COVID-19 protests (Methodological appendix)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/152-the-ideological-divide-in-british-women-s-politica/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    The Ideological Divide in British Women’s Political Leadership Aspirations
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/155-examining-the-correspondence-between-political-ide/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Examining the correspondence between political ideology and gun policy attitudes among Black and White people in the United States
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/158-polidas-political-ideology-identity-and-social-att/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    POLIDAS: Political ideology, identity and social attitudes study
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/159-modelling-rational-belief-updating-in-ideologicall/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Modelling Rational Belief Updating in Ideologically Charged Contexts: A Bayesian Approach
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/161-framing-discrimination-identifying-frames-about-de/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Framing discrimination: Identifying frames about dealing with discrimination in Belgian newspapers
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/164-ccf-canadian-climate-framing/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    CCF-canadian-climate-framing
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/166-the-moscow-spin-assessing-russia-today-s-rt-framin/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    The Moscow Spin: Assessing Russia Today’s (RT) Framing of Media Systems Across Languages
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/168-self-representation-online-identity-and-visual-fra/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Self-representation, online identity, and visual framing of Spanish Members of Parliament on X
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/169-visual-framing-in-the-ai-era-lessons-from-manual-a/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Visual Framing in the AI Era: Lessons from Manual Approaches for Computational Methods
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/170-llm-annotation-reliability-a-generalizability-theo/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    LLM Annotation Reliability: A Generalizability Theory Analysis of Hate Speech, Mental Health, and Drug Review Tasks
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/171-a-qualitative-study-investigating-perceptions-of-y/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    A qualitative study investigating perceptions of young adult bystanders on online hate speech on social media
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/172-stopping-online-hate-how-hate-speech-perpetrators-/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Stopping Online Hate: How Hate Speech Perpetrators Respond to Different Counter-speech Strategies
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/173-counter-speech-and-bystander-reactions-responding-/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Counter-speech and Bystander Reactions Responding to Hate Speech Online
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/174-examining-bystanders-decisions-to-not-intervene-in/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Examining Bystanders’ Decisions to Not Intervene in Incidents of Hate Speech Online and Offline
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/175-desensitization-to-hate-speech-examination-using-h/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Desensitization to hate speech: Examination using heart rate measurement
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/176-assessing-the-extent-and-types-of-hate-speech-in-f/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Assessing the Extent and Types of Hate Speech in Fringe Communities
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/178-gendered-hate-speech-in-youtube-and-younow-comment/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Gendered hate speech in YouTube and YouNow comments: Results of two content analyses
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/179-adolescent-extremism-the-role-of-cognitive-rigidit/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Adolescent Extremism: The Role of Cognitive Rigidity and Quest for Significance
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/180-intergenerational-transmission-of-extremism-nctv-p/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Intergenerational Transmission of Extremism [NCTV project] - published
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/181-distinct-patterns-of-incidental-exposure-to-and-ac/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Distinct Patterns of Incidental Exposure to and Active Selection of Radicalizing Information Indicate Varying Levels of Support for Violent Extremism
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/182-persistent-beliefs-political-extremism-predicts-id/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Persistent beliefs: Political extremism predicts ideological stability over time
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/183-fighting-violent-extremism-with-narrative-interven/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Fighting Violent Extremism with Narrative Intervention
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/184-political-extremism-and-migration-intentions-of-re/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Political Extremism and Migration Intentions of Refugees
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/185-sammelband-subjektive-sicherheit-und-politische-ku/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Sammelband: Subjektive Sicherheit und politische Kultur
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/186-politik-und-dialekt/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Politik und Dialekt
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/187-nrw-wahl/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    NRW-Wahl
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/188-bundestagswahl-fien-k-ntzel/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Bundestagswahl Fien/Küntzel
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/19-newspol-measuring-and-comparing-news-media-polaris/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    NewsPol: Measuring and Comparing News Media Polarisation
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/191-ideological-a-symmetries-in-moral-judgments-of-onl/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Ideological (A-)Symmetries in Moral Judgments of Online Hate
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/193-moral-perceptions-about-environmentalism-across-id/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Moral Perceptions about Environmentalism across Ideological Groups: Negative Moral Stereotypes Threaten Rightists’ Moral Self and Trigger Polarization
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/21-funnier-to-me-the-more-it-offends-them-the-benign-/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Funnier to me the more it offends them: The Benign Violation Theory and disparagement humor targeting conservative versus liberal values
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/22-fb-data/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    FB Data
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/25-annotation-guidelines-english-translation/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Annotation Guidelines - English translation
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/26-tiktok-multimodal-annotation-scheme/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    TikTok Multimodal Annotation Scheme
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/29-politische-kommunikation-und-engagement-auf-instag/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Politische Kommunikation und Engagement auf Instagram:  Strategien während der ostdeutschen Landtagswahlkämpfen 2024
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/30-codebuch-zum-vortrag-alltagshilfe-oder-killer-tech/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Codebuch zum Vortrag „Alltagshilfe oder Killer-Technologie? KI-Framing in deutsch- und englischsprachigen Medien', PolKomm 2023, Düsseldorf
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/31-nohate-2017-2021/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    NOHATE (2017–2021)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/43-portuguese-political-cognition-during-the-2024-202/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Portuguese Political Cognition During the 2024/2025 Legislative Election
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/45-data-and-code-anomie-political-actions/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Data_and_Code_Anomie_Political_Actions
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/47-waking-up-to-politics-how-sleep-quality-relates-to/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Waking up to politics: How sleep quality relates to political participation
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/48-election-study-2024/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Election study 2024
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/49-a-longitudinal-comparison-of-the-effects-of-electi/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    A longitudinal comparison of the effects of election outcomes on system legitimacy in the UK and US
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/50-election-study/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Election Study
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/51-replication-materials-does-office-type-determine-g/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Replication Materials: Does Office Type Determine Gendered Campaign Messages?
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/52-replication-data-why-do-parties-participate-in-ref/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Replication Data: Why do Parties Participate in Referendum Campaigns? Evidence from Switzerland
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/53-replication-materials-for-risk-preferences-in-poli/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Replication Materials for Risk Preferences in Political Campaigns: Effects on Voter Approval
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/54-predictive-and-cross-cultural-validity-of-attitudi/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Predictive and cross-cultural validity of attitudinal measures of populism
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/55-begleitmaterial-zur-bachelorarbeit-populistisches-/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Begleitmaterial zur Bachelorarbeit 'Populistisches Wahlverhalten junger Erwachsener in Deutschland: Prädiktoren im Kontext der Einstellungs-Verhaltens-Beziehung'
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/56-populists-and-io-s/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Populists and IO's
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/57-the-role-of-uncertainty-mindsets-in-shaping-divers/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    The Role of Uncertainty Mindsets in Shaping Diversity Attitudes and Their Downstream Effects on Commitment to Societal Change and Right-Wing Populist Voting
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/58-the-populistree-a-new-tool-to-explore-the-varietie/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    The PopulisTree: A New Tool to Explore the Varieties of Populism in Europe
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/6-codebuch-projekt-desinformationsverhalten-verstehe/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Codebuch - Projekt 'Desinformationsverhalten Verstehen'
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/60-entertainment-and-populism/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Entertainment and populism
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/61-a-socio-cultural-reconceptualization-and-operation/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    A Socio-Cultural Reconceptualization and Operationalization of Populist Attitudes: The United States Case Study
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/62-populism-and-belief-in-conspiracy-theories-strong-/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Populism and belief in conspiracy theories: strong anti-elitist attitudes reduce the impact of analytical thinking on conspiracy beliefs
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/63-radical-mobilization-in-times-of-crisis-use-and-ef/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Radical Mobilization in Times of Crisis.  Use and Effects of Appeals and Populist Communication Features  in Telegram Channels
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/64-a-person-centered-and-situated-approach-to-populis/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    A person-centered and situated approach to populism in representative surveys
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/65-partisan-sortedness-is-used-to-signal-trustworthin/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Partisan sortedness is used to signal trustworthiness
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/66-partisan-forgiveness-of-political-leadership-in-th/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Partisan Forgiveness of Political Leadership in the 2024 UK General Election: Are there Limits to Transgression Credit?
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/67-negative-campaigning-comparative-data-negex-releas/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Negative Campaigning Comparative Data (NEGex), release 2.0
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/68-negative-campaigning-comparative-data-negex-releas/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Negative Campaigning Comparative Data (NEGex), release 1.0
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/69-incivility-in-online-discussion-as-a-collective-ph/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Incivility in Online Discussion as a Collective Phenomenon: A Dynamic Systems Perspective Examining Sequences of Uncivil Messages
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/7-codebuch-zur-studie-eigeninteressen-in-der-bericht/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Codebuch zur Studie «Eigeninteressen in der Berichterstattung über medienpolitische Vorlagen und den Service public in der Schweiz»
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/70-the-role-of-incivility-and-moral-disengagement-in-/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    The role of incivility and moral disengagement in dehumanisation.
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/71-political-polarization-of-belief-in-climate-change/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Political Polarization of Belief in Climate Change and Its Impact on Policy Support among Politicians and Citizens from Eight Developed Democracies
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/72-associations-between-inclusivity-norms-and-toleran/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Associations between inclusivity norms and tolerance, contact, and cooperation amid polarization
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/73-depolarization/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Depolarization
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/74-systematic-review-and-evidence-gap-maps-of-affecti/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Systematic Review and Evidence Gap Maps of Affective Polarization Research
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/75-anti-intellectualism-challenged-beliefs-about-the-/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Anti-Intellectualism, Challenged Beliefs About the 2020 Election, and Attitude Polarization
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/76-dataset-of-ideological-polarization-in-western-eur/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Dataset of ideological polarization in Western Europe
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/77-podcast-and-affective-polarization-dissertation-pr/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Podcast and Affective Polarization Dissertation Project
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/79-perceived-polarization-and-online-activity-associa/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Perceived polarization and online activity associated with radical social views
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/83-interparty-relations-on-twitter/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Interparty relations on Twitter
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/84-tailored-messages-or-one-size-fits-all-communicati/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tailored messages or one-size-fits-all communication? A comparative analysis of U.S. public diplomacy on Twitter
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/87-blaming-it-on-nato-framing-the-russian-invasion-of/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Blaming it on NATO? Framing the Russian Invasion of Ukraine on Twitter
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="codebooks/88-the-few-the-loud-platform-mediated-articulation-of/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    The Few, The Loud:   Platform-Mediated Articulation of Conspiratorial Discourse by Political Elites on X and Facebook
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
     </li>
   
@@ -3481,658 +318,790 @@
 
 
 <h1 id="political-communication-codebook-archive">Political Communication Codebook Archive</h1>
-<p>A curated collection of codebooks and annotation schemes used in political communication research. All entries have been verified by automated classification and are available from open-access repositories.</p>
-<p><strong>107 codebooks</strong> indexed from OSF and Zenodo.</p>
-<p>Use the search bar above or browse by tag in the navigation.</p>
-<hr />
+<div class="cb-disclaimer">
+<strong>About this archive</strong>
+Entries are discovered automatically by keyword search on <a href='https://osf.io'>OSF</a> and <a href='https://zenodo.org'>Zenodo</a>. Each entry is then pre-screened by <strong>Claude Haiku 4.5</strong> (Anthropic's AI language model), which assesses whether the item is likely a codebook or annotation scheme used in political communication research. Classification results are not guaranteed to be correct — an entry may appear here even if it does not contain a codebook suitable for your research. Always check the linked source before citing. The reasoning text on each entry page is AI-generated.
+</div>
+
+<div id="cb-controls">
+<div id="cb-filter-row">
+<span>Filter by topic:</span>
+<button class="cb-tag active" data-tag="">All <span class="cb-count">(107)</span></button>
+<button class="cb-tag" data-tag="Social Media">Social Media <span class="cb-count">(28)</span></button>
+<button class="cb-tag" data-tag="Elections">Elections <span class="cb-count">(22)</span></button>
+<button class="cb-tag" data-tag="Campaigns">Campaigns <span class="cb-count">(20)</span></button>
+<button class="cb-tag" data-tag="Disinformation">Disinformation <span class="cb-count">(19)</span></button>
+<button class="cb-tag" data-tag="Framing">Framing <span class="cb-count">(18)</span></button>
+<button class="cb-tag" data-tag="Polarization">Polarization <span class="cb-count">(17)</span></button>
+<button class="cb-tag" data-tag="Political Content">Political Content <span class="cb-count">(13)</span></button>
+<button class="cb-tag" data-tag="Populism">Populism <span class="cb-count">(12)</span></button>
+<button class="cb-tag" data-tag="Hate Speech">Hate Speech <span class="cb-count">(10)</span></button>
+<button class="cb-tag" data-tag="Partisanship">Partisanship <span class="cb-count">(10)</span></button>
+<button class="cb-tag" data-tag="Extremism">Extremism <span class="cb-count">(9)</span></button>
+<button class="cb-tag" data-tag="Incivility">Incivility <span class="cb-count">(7)</span></button>
+<button class="cb-tag" data-tag="Political Influencers">Political Influencers <span class="cb-count">(6)</span></button>
+<button class="cb-tag" data-tag="Negative Campaigning">Negative Campaigning <span class="cb-count">(4)</span></button>
+</div>
+<input id="cb-search" type="text" placeholder="Search by title or author…" />
+<div id="cb-count-label"></div>
+</div>
+
 <table>
 <thead>
 <tr>
 <th>Title</th>
+<th>Authors</th>
 <th>Source</th>
 <th>Year</th>
-<th>Concepts</th>
+<th>Topics</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><a href="codebooks/131-2026-02-02-emotional-impact-of-pro-russian-disinfo/">2026-02-02 Emotional Impact of Pro-Russian Disinformation</a></td>
+<td>Yuskiv, Bohdan</td>
 <td>OSF</td>
 <td>2026</td>
 <td>Disinformation, Framing</td>
 </tr>
 <tr>
 <td><a href="codebooks/55-begleitmaterial-zur-bachelorarbeit-populistisches-/">Begleitmaterial zur Bachelorarbeit "Populistisches Wahlverhalten junge</a></td>
+<td>Chrysikakis, Elias</td>
 <td>OSF</td>
 <td>2026</td>
 <td>Elections, Populism</td>
 </tr>
 <tr>
 <td><a href="codebooks/137-do-experts-agree-about-misinformation-evidence-fro/">Do Experts Agree About Misinformation? Evidence from Three Annual Surv</a></td>
+<td>Altay, Sacha</td>
 <td>OSF</td>
 <td>2026</td>
 <td>Disinformation</td>
 </tr>
 <tr>
 <td><a href="codebooks/150-ideology-religion-and-the-justification-of-across-/">Ideology, Religion, and the Justification of Across Moral Violations a</a></td>
+<td>Hanif, Faiqal D</td>
 <td>OSF</td>
 <td>2026</td>
 <td>Framing</td>
 </tr>
 <tr>
 <td><a href="codebooks/170-llm-annotation-reliability-a-generalizability-theo/">LLM Annotation Reliability: A Generalizability Theory Analysis of Hate</a></td>
+<td>Liu, Jin</td>
 <td>OSF</td>
 <td>2026</td>
 <td>Hate Speech</td>
 </tr>
 <tr>
 <td><a href="codebooks/43-portuguese-political-cognition-during-the-2024-202/">Portuguese Political Cognition During the 2024/2025 Legislative Electi</a></td>
+<td>Seruti, Amanda, Ferreira, Mário B, Garrido, Margarida V, …</td>
 <td>OSF</td>
 <td>2026</td>
 <td>Campaigns, Elections</td>
 </tr>
 <tr>
 <td><a href="codebooks/51-replication-materials-does-office-type-determine-g/">Replication Materials: Does Office Type Determine Gendered Campaign Me</a></td>
+<td>Lim, Tae Hyun</td>
 <td>OSF</td>
 <td>2026</td>
 <td>Campaigns, Elections, Political Content</td>
 </tr>
 <tr>
 <td><a href="codebooks/142-social-truth-queries-effectively-reduce-the-percei/">Social Truth Queries Effectively Reduce the Perceived Accuracy of Misi</a></td>
+<td>Udry, Jessica, Barber, Sarah J</td>
 <td>OSF</td>
 <td>2026</td>
 <td>Disinformation, Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/146-the-affective-power-of-multimodality-narrative-arc/">The Affective Power of Multimodality: Narrative Arcs and     Algorithm</a></td>
+<td>Erdogan, Emre</td>
 <td>OSF</td>
 <td>2026</td>
 <td>Campaigns, Elections, Framing</td>
 </tr>
 <tr>
 <td><a href="codebooks/26-tiktok-multimodal-annotation-scheme/">TikTok Multimodal Annotation Scheme</a></td>
+<td>Grzenkowicz, Maciej</td>
 <td>OSF</td>
 <td>2026</td>
 <td>Disinformation, Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/61-a-socio-cultural-reconceptualization-and-operation/">A Socio-Cultural Reconceptualization and Operationalization of Populis</a></td>
+<td>Mijatović, Nevena</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Populism</td>
 </tr>
 <tr>
 <td><a href="codebooks/49-a-longitudinal-comparison-of-the-effects-of-electi/">A longitudinal comparison of the effects of election outcomes on syste</a></td>
+<td>Valdes, Evan A, Searle, Rosalind, Liu, James H, Sinderman…</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Elections</td>
 </tr>
 <tr>
 <td><a href="codebooks/25-annotation-guidelines-english-translation/">Annotation Guidelines - English translation</a></td>
+<td>Temnikova, Irina</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Disinformation</td>
 </tr>
 <tr>
 <td><a href="codebooks/164-ccf-canadian-climate-framing/">CCF-canadian-climate-framing</a></td>
+<td>Lemor, Antoine C, Taylor, Matthew, Pillod, Alizée</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Framing</td>
 </tr>
 <tr>
 <td><a href="codebooks/6-codebuch-projekt-desinformationsverhalten-verstehe/">Codebuch - Projekt "Desinformationsverhalten Verstehen"</a></td>
+<td>Stiller, Juliane, Trkulja, Violeta</td>
 <td>Zenodo</td>
 <td>2025</td>
 <td>Disinformation</td>
 </tr>
 <tr>
 <td><a href="codebooks/45-data-and-code-anomie-political-actions/">Data_and_Code_Anomie_Political_Actions</a></td>
+<td>Neerdaels, Jasper, Teymoori, Ali</td>
 <td>OSF</td>
 <td>2025</td>
 <td>—</td>
 </tr>
 <tr>
 <td><a href="codebooks/50-election-study/">Election Study</a></td>
+<td>DiGiovanni, Ana M</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Campaigns, Elections</td>
 </tr>
 <tr>
 <td><a href="codebooks/141-misinfomet-metaphors-of-misinformation-mnr-cis-mip/">Misinfomet – Metaphors of Misinformation (MNR + CIS + MIP/MIPVU)</a></td>
+<td>Fitzek, Sebastian, Bârgaoanu, Alina, Negrea-Busuioc, Elena</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Disinformation, Framing</td>
 </tr>
 <tr>
 <td><a href="codebooks/105-navigating-credibility-on-tiktok-how-young-adults-/">Navigating Credibility on TikTok: How Young Adults Evaluate and Verify</a></td>
+<td>Anter, Luise, Kümpel, Anna S</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Disinformation, Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/19-newspol-measuring-and-comparing-news-media-polaris/">NewsPol: Measuring and Comparing News Media Polarisation</a></td>
+<td>Esau, Katharina, Riedlinger, Michelle, Bruns, Axel, Vodde…</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Partisanship, Polarization</td>
 </tr>
 <tr>
 <td><a href="codebooks/66-partisan-forgiveness-of-political-leadership-in-th/">Partisan Forgiveness of Political Leadership in the 2024 UK General El</a></td>
+<td>Lalot, Fanny, Abrams, Dominic</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Campaigns, Elections, Partisanship</td>
 </tr>
 <tr>
 <td><a href="codebooks/65-partisan-sortedness-is-used-to-signal-trustworthin/">Partisan sortedness is used to signal trustworthiness</a></td>
+<td>Phillips, Samantha C</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Partisanship</td>
 </tr>
 <tr>
 <td><a href="codebooks/71-political-polarization-of-belief-in-climate-change/">Political Polarization of Belief in Climate Change and Its Impact on P</a></td>
+<td>Kotz, Johannes, Giese, Helge, Breunig, Christian, Sterba,…</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Partisanship, Polarization</td>
 </tr>
 <tr>
 <td><a href="codebooks/29-politische-kommunikation-und-engagement-auf-instag/">Politische Kommunikation und Engagement auf Instagram:  Strategien wäh</a></td>
+<td>Weikinn, Emil L A</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Campaigns, Elections, Political Content, Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/54-predictive-and-cross-cultural-validity-of-attitudi/">Predictive and cross-cultural validity of attitudinal measures of popu</a></td>
+<td>Manunta, Efisio</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Populism</td>
 </tr>
 <tr>
 <td><a href="codebooks/151-protest-movements-and-the-mainstreaming-of-radical/">Protest movements and the mainstreaming of radical and extremist ideol</a></td>
+<td>Rothut, Sophia, Schulze, Heidi, Rieger, Diana, Lechner, M…</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Extremism, Polarization, Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/52-replication-data-why-do-parties-participate-in-ref/">Replication Data: Why do Parties Participate in Referendum Campaigns? </a></td>
+<td>Paulissen, Toine</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Campaigns</td>
 </tr>
 <tr>
 <td><a href="codebooks/53-replication-materials-for-risk-preferences-in-poli/">Replication Materials for Risk Preferences in Political Campaigns: Eff</a></td>
+<td>Höppner, Martin</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Campaigns, Elections</td>
 </tr>
 <tr>
 <td><a href="codebooks/168-self-representation-online-identity-and-visual-fra/">Self-representation, online identity, and visual framing of Spanish Me</a></td>
+<td>Sanz-Aznar, Javier</td>
 <td>OSF</td>
 <td>2025</td>
-<td>Campaigns, Elections, Framing, Political Content</td>
+<td>Campaigns, Elections, Framing, Political Content, Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/145-shield-or-sieve-correcting-visual-propaganda/">Shield or Sieve: Correcting visual propaganda</a></td>
+<td>Mattis, Nicolas M, Weikmann, Teresa E, de Vreese, Claes</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Disinformation</td>
 </tr>
 <tr>
 <td><a href="codebooks/172-stopping-online-hate-how-hate-speech-perpetrators-/">Stopping Online Hate: How Hate Speech Perpetrators Respond to Differen</a></td>
+<td>Jia, Yue, hansen, kirstine, Garrido Marques, Tiago, Schum…</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Hate Speech</td>
 </tr>
 <tr>
 <td><a href="codebooks/74-systematic-review-and-evidence-gap-maps-of-affecti/">Systematic Review and Evidence Gap Maps of Affective Polarization Rese</a></td>
+<td>Abad Borger, Katharina, Walther, Eva, Bosnjak, Michael</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Polarization</td>
 </tr>
 <tr>
 <td><a href="codebooks/126-systematic-review-ai-influencers-and-persuasion/">Systematic review AI influencers and persuasion</a></td>
+<td>Vranken, Sofie, Kankova, Jaroslava, Matthes, Jörg</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Political Influencers, Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/88-the-few-the-loud-platform-mediated-articulation-of/">The Few, The Loud:   Platform-Mediated Articulation of Conspiratorial </a></td>
+<td>Marczyński, Piotr, Brack, Nathalie</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/152-the-ideological-divide-in-british-women-s-politica/">The Ideological Divide in British Women’s Political Leadership Aspirat</a></td>
+<td>Antonetti, Marta</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Partisanship</td>
 </tr>
 <tr>
 <td><a href="codebooks/58-the-populistree-a-new-tool-to-explore-the-varietie/">The PopulisTree: A New Tool to Explore the Varieties of Populism in Eu</a></td>
+<td>Zulianello, Mattia</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Campaigns, Elections, Populism</td>
 </tr>
 <tr>
 <td><a href="codebooks/57-the-role-of-uncertainty-mindsets-in-shaping-divers/">The Role of Uncertainty Mindsets in Shaping Diversity Attitudes and Th</a></td>
+<td>Takizawa, Ruri, Marx-Fleck, Stefanie, Gerlach, Alina, Gro…</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Populism</td>
 </tr>
 <tr>
 <td><a href="codebooks/130-the-effect-of-logic-based-vs-fact-based-corrective/">The effect of logic-based vs. fact-based corrective information on dis</a></td>
+<td>Lorko, Matej, Cavojova, Vladimira, Brokesova, Zuzana</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Disinformation</td>
 </tr>
 <tr>
 <td><a href="codebooks/132-the-effect-of-prebunking-vs-debunking-on-trust-in-/">The effect of prebunking vs. debunking on trust in disinformation</a></td>
+<td>Lorko, Matej, Cavojova, Vladimira, Šrol, Jakub</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Disinformation, Political Content</td>
 </tr>
 <tr>
 <td><a href="codebooks/148-threat-and-worry-often-go-together-salience-stands/">Threat and Worry (Often) Go Together; Salience Stands Apart – Patterns</a></td>
+<td>Bomm, Linda C, Bergmann, Paul K, Bakker, Bert N</td>
 <td>OSF</td>
 <td>2025</td>
 <td>—</td>
 </tr>
 <tr>
 <td><a href="codebooks/143-truth-seeking-vs-balance-the-credibility-dilemma-i/">Truth-seeking vs. Balance: The Credibility Dilemma in Correcting Polit</a></td>
+<td>Shin, Hwayong</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Disinformation, Political Content</td>
 </tr>
 <tr>
 <td><a href="codebooks/169-visual-framing-in-the-ai-era-lessons-from-manual-a/">Visual Framing in the AI Era: Lessons from Manual Approaches for Compu</a></td>
+<td>Lokmanoglu, Ayse D, El Damanhoury, Kareem, Winkler, Carol…</td>
 <td>OSF</td>
 <td>2025</td>
 <td>Framing</td>
 </tr>
 <tr>
 <td><a href="codebooks/47-waking-up-to-politics-how-sleep-quality-relates-to/">Waking up to politics: How sleep quality relates to political particip</a></td>
+<td>Erol, Fatih, Micatka, Nathan K, Ksiazkiewicz, Aleksander</td>
 <td>OSF</td>
 <td>2025</td>
 <td>—</td>
 </tr>
 <tr>
 <td><a href="codebooks/171-a-qualitative-study-investigating-perceptions-of-y/">A qualitative study investigating perceptions of young adult bystander</a></td>
+<td>Pabian, Sara</td>
 <td>OSF</td>
 <td>2024</td>
 <td>Hate Speech, Incivility, Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/179-adolescent-extremism-the-role-of-cognitive-rigidit/">Adolescent Extremism: The Role of Cognitive Rigidity and Quest for Sig</a></td>
+<td>Knorr, Anna</td>
 <td>OSF</td>
 <td>2024</td>
 <td>Extremism</td>
 </tr>
 <tr>
 <td><a href="codebooks/124-adolescents-as-citizen-scientists-insights-into-th/">Adolescents as Citizen Scientists: Insights Into Their Exposure to Soc</a></td>
+<td>Van Houtven, Ellen, Dekoninck, Heleen, Harff, Darian, Sch…</td>
 <td>OSF</td>
 <td>2024</td>
 <td>Political Content, Political Influencers, Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/118-algorithmic-ranking-of-divisive-expressions-in-you/">Algorithmic Ranking of Divisive Expressions in YouTube User Comments</a></td>
+<td>Linnert, Ellen</td>
 <td>OSF</td>
 <td>2024</td>
 <td>Incivility, Polarization, Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/138-an-analysis-of-studies-testing-digital-interventio/">An Analysis of Studies Testing Digital Interventions to Inoculate agai</a></td>
+<td>Loughnan, Dan, van Stekelenburg, Aart, Kleemans, Mariska,…</td>
 <td>OSF</td>
 <td>2024</td>
 <td>Disinformation</td>
 </tr>
 <tr>
 <td><a href="codebooks/75-anti-intellectualism-challenged-beliefs-about-the-/">Anti-Intellectualism, Challenged Beliefs About the 2020 Election, and </a></td>
+<td>Altgilbers Roweton, Marie, Eidelman, Scott</td>
 <td>OSF</td>
 <td>2024</td>
 <td>Campaigns, Elections, Polarization</td>
 </tr>
 <tr>
 <td><a href="codebooks/109-conspiracytiktok/">ConspiracyTikTok</a></td>
+<td>Marwick, Alice, Furl, Katherine</td>
 <td>OSF</td>
 <td>2024</td>
 <td>Disinformation, Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/76-dataset-of-ideological-polarization-in-western-eur/">Dataset of ideological polarization in Western Europe</a></td>
+<td>Emanuele, Vincenzo, Marino, Bruno</td>
 <td>OSF</td>
 <td>2024</td>
 <td>Campaigns, Elections, Polarization</td>
 </tr>
 <tr>
 <td><a href="codebooks/147-does-attitudinal-inoculation-confer-resistance-to-/">Does Attitudinal Inoculation Confer Resistance to Violent Extremist Pr</a></td>
+<td>Schumann, Sandy</td>
 <td>OSF</td>
 <td>2024</td>
 <td>Extremism</td>
 </tr>
 <tr>
 <td><a href="codebooks/48-election-study-2024/">Election study 2024</a></td>
+<td>Rothmund, Tobias, Walther, Eva, Finn, Christine, Grosche,…</td>
 <td>OSF</td>
 <td>2024</td>
 <td>Campaigns, Elections, Extremism</td>
 </tr>
 <tr>
 <td><a href="codebooks/161-framing-discrimination-identifying-frames-about-de/">Framing discrimination: Identifying frames about dealing with discrimi</a></td>
+<td>Steeman, Lise-Lore</td>
 <td>OSF</td>
 <td>2024</td>
 <td>Framing</td>
 </tr>
 <tr>
 <td><a href="codebooks/21-funnier-to-me-the-more-it-offends-them-the-benign-/">Funnier to me the more it offends them: The Benign Violation Theory an</a></td>
+<td>Koszałkowska, Karolina, Ford, Thomas E, Han, Hyemin, Olah…</td>
 <td>OSF</td>
 <td>2024</td>
 <td>Framing, Partisanship, Polarization</td>
 </tr>
 <tr>
 <td><a href="codebooks/134-identity-is-key-but-inoculation-helps-how-to-empow/">Identity is key, but Inoculation helps – how to empower Germans of Rus</a></td>
+<td>Ziemer, Carolin-Theresa, Schmid, Philipp, Betsch, Corneli…</td>
 <td>OSF</td>
 <td>2024</td>
 <td>Disinformation</td>
 </tr>
 <tr>
 <td><a href="codebooks/129-intimate-and-opinion-oriented-communication-examin/">Intimate and Opinion-Oriented Communication? Examining Social Media In</a></td>
+<td>Harff, Darian</td>
 <td>OSF</td>
 <td>2024</td>
 <td>Political Content, Political Influencers, Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/135-leaks-lies-and-lawns-a-multi-method-cross-platform/">Leaks, lies, and lawns: A multi-method, cross-platform study of politi</a></td>
+<td>Marwick, Alice, McGregor, Shannon, Freelon, Deen</td>
 <td>OSF</td>
 <td>2024</td>
 <td>Disinformation</td>
 </tr>
 <tr>
 <td><a href="codebooks/159-modelling-rational-belief-updating-in-ideologicall/">Modelling Rational Belief Updating in Ideologically Charged Contexts: </a></td>
+<td>Sanna, Greta A, Lagnado, David, Pilditch, Toby</td>
 <td>OSF</td>
 <td>2024</td>
 <td>Disinformation, Partisanship, Polarization</td>
 </tr>
 <tr>
 <td><a href="codebooks/101-news-on-instagram-and-tiktok/">News on Instagram and TikTok</a></td>
+<td>Wirz, Dominique S, Zai, Florin</td>
 <td>OSF</td>
 <td>2024</td>
 <td>Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/62-populism-and-belief-in-conspiracy-theories-strong-/">Populism and belief in conspiracy theories: strong anti-elitist attitu</a></td>
+<td>Mehl, Stephanie, Pytlik, Nico, Soll, Daniel, Rief, Winfried</td>
 <td>OSF</td>
 <td>2024</td>
 <td>Populism</td>
 </tr>
 <tr>
 <td><a href="codebooks/84-tailored-messages-or-one-size-fits-all-communicati/">Tailored messages or one-size-fits-all communication? A comparative an</a></td>
+<td>Jungblut, Marc</td>
 <td>OSF</td>
 <td>2024</td>
 <td>Framing, Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/107-tiktok-s-system-of-curation-and-individual-and-col/">TikTok's System of Curation and Individual and Collective Dynamics</a></td>
+<td>Gugushvili, Nino, Masciantonio, Alexandra</td>
 <td>OSF</td>
 <td>2024</td>
 <td>Polarization, Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/64-a-person-centered-and-situated-approach-to-populis/">A person-centered and situated approach to populism in representative </a></td>
+<td>Mijatović, Nevena</td>
 <td>OSF</td>
 <td>2023</td>
 <td>Populism</td>
 </tr>
 <tr>
 <td><a href="codebooks/119-anh-nge-typen-politischer-influencerkommunikation-/">Anhänge_Typen politischer Influencerkommunikation auf YouTube</a></td>
+<td>Henn, Halina</td>
 <td>OSF</td>
 <td>2023</td>
 <td>Political Influencers</td>
 </tr>
 <tr>
 <td><a href="codebooks/72-associations-between-inclusivity-norms-and-toleran/">Associations between inclusivity norms and tolerance, contact, and coo</a></td>
+<td>Schäfer, Laura F, Tausch, Nicole, Christ, Oliver, Schäfer…</td>
 <td>OSF</td>
 <td>2023</td>
 <td>Polarization</td>
 </tr>
 <tr>
 <td><a href="codebooks/30-codebuch-zum-vortrag-alltagshilfe-oder-killer-tech/">Codebuch zum Vortrag „Alltagshilfe oder Killer-Technologie? KI-Framing</a></td>
+<td>Zai, Florin, Hänggli, Regula</td>
 <td>OSF</td>
 <td>2023</td>
 <td>Framing</td>
 </tr>
 <tr>
 <td><a href="codebooks/173-counter-speech-and-bystander-reactions-responding-/">Counter-speech and Bystander Reactions Responding to Hate Speech Onlin</a></td>
+<td>Jia, Yue, Schumann, Sandy</td>
 <td>OSF</td>
 <td>2023</td>
 <td>Hate Speech</td>
 </tr>
 <tr>
 <td><a href="codebooks/73-depolarization/">Depolarization</a></td>
+<td>van Eck, Christel</td>
 <td>OSF</td>
 <td>2023</td>
 <td>Polarization</td>
 </tr>
 <tr>
 <td><a href="codebooks/175-desensitization-to-hate-speech-examination-using-h/">Desensitization to hate speech: Examination using heart rate measureme</a></td>
+<td>Soral, Wiktor, Świderska, Aleksandra, Puchała, Dominik, B…</td>
 <td>OSF</td>
 <td>2023</td>
 <td>Hate Speech</td>
 </tr>
 <tr>
 <td><a href="codebooks/60-entertainment-and-populism/">Entertainment and populism</a></td>
+<td>van Prooijen, Jan-Willem, Nachtwey, Paul, Li, Y., Mo, Y.,…</td>
 <td>OSF</td>
 <td>2023</td>
 <td>Populism</td>
 </tr>
 <tr>
 <td><a href="codebooks/174-examining-bystanders-decisions-to-not-intervene-in/">Examining Bystanders’ Decisions to Not Intervene in Incidents of Hate </a></td>
+<td>Schumann, Sandy</td>
 <td>OSF</td>
 <td>2023</td>
 <td>Hate Speech, Incivility</td>
 </tr>
 <tr>
 <td><a href="codebooks/155-examining-the-correspondence-between-political-ide/">Examining the correspondence between political ideology and gun policy</a></td>
+<td>Losee, Joy E, HIGGINBOTHAM, GERALD, Pogge, Gabrielle, Ker…</td>
 <td>OSF</td>
 <td>2023</td>
 <td>—</td>
 </tr>
 <tr>
 <td><a href="codebooks/104-government-crisis-communication-on-instagram/">Government crisis communication on Instagram</a></td>
+<td>Xu, Yi</td>
 <td>OSF</td>
 <td>2023</td>
 <td>Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/191-ideological-a-symmetries-in-moral-judgments-of-onl/">Ideological (A-)Symmetries in Moral Judgments of Online Hate</a></td>
+<td>Bojarskich, Vladimir, Yucel, Meltem, Hahn, Lindsay, Rothm…</td>
 <td>OSF</td>
 <td>2023</td>
 <td>Framing, Hate Speech, Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/69-incivility-in-online-discussion-as-a-collective-ph/">Incivility in Online Discussion as a Collective Phenomenon: A Dynamic </a></td>
+<td>Rains, Stephen A</td>
 <td>OSF</td>
 <td>2023</td>
 <td>Incivility</td>
 </tr>
 <tr>
 <td><a href="codebooks/140-misinformation-in-transmission-chains/">Misinformation in Transmission Chains</a></td>
+<td>Prike, Toby, Walker, Bradley, Ecker, Ullrich K H, Fay, Ni…</td>
 <td>OSF</td>
 <td>2023</td>
 <td>Disinformation</td>
 </tr>
 <tr>
 <td><a href="codebooks/67-negative-campaigning-comparative-data-negex-releas/">Negative Campaigning Comparative Data (NEGex), release 2.0</a></td>
+<td>Nai, Alessandro</td>
 <td>OSF</td>
 <td>2023</td>
 <td>Campaigns, Elections, Negative Campaigning, Populism</td>
 </tr>
 <tr>
 <td><a href="codebooks/158-polidas-political-ideology-identity-and-social-att/">POLIDAS: Political ideology, identity and social attitudes study</a></td>
+<td>Bahamondes, Joaquín</td>
 <td>OSF</td>
 <td>2023</td>
 <td>Partisanship</td>
 </tr>
 <tr>
 <td><a href="codebooks/77-podcast-and-affective-polarization-dissertation-pr/">Podcast and Affective Polarization Dissertation Project</a></td>
+<td>Hartvigsen, Luke D, Ridge, Robert D</td>
 <td>OSF</td>
 <td>2023</td>
 <td>Polarization</td>
 </tr>
 <tr>
 <td><a href="codebooks/123-popular-culture-as-a-vehicle-for-identity-represen/">Popular Culture as a Vehicle for Identity Representation: Social Media</a></td>
+<td>Van Houtven, Ellen, Harff, Darian, Schmuck, Desiree</td>
 <td>OSF</td>
 <td>2023</td>
 <td>Incivility, Political Influencers</td>
 </tr>
 <tr>
 <td><a href="codebooks/56-populists-and-io-s/">Populists and IO's</a></td>
+<td>de Melo, Alan C, Loureiro, Rennan P, Mélo, Isabela d C</td>
 <td>OSF</td>
 <td>2023</td>
 <td>Populism</td>
 </tr>
 <tr>
 <td><a href="codebooks/127-prevalence-presentation-and-popularity-of-politica/">Prevalence, Presentation, and Popularity of Political Topics in Social</a></td>
+<td>Harff, Darian, Schmuck, Desiree</td>
 <td>OSF</td>
 <td>2023</td>
 <td>Political Content, Political Influencers, Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/63-radical-mobilization-in-times-of-crisis-use-and-ef/">Radical Mobilization in Times of Crisis.  Use and Effects of Appeals a</a></td>
+<td>Jost, Pablo, Dogruel, Leyla</td>
 <td>OSF</td>
 <td>2023</td>
 <td>Political Content, Populism, Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/185-sammelband-subjektive-sicherheit-und-politische-ku/">Sammelband: Subjektive Sicherheit und politische Kultur</a></td>
+<td>Melcher, Reinhold</td>
 <td>OSF</td>
 <td>2023</td>
 <td>—</td>
 </tr>
 <tr>
 <td><a href="codebooks/166-the-moscow-spin-assessing-russia-today-s-rt-framin/">The Moscow Spin: Assessing Russia Today’s (RT) Framing of Media System</a></td>
+<td>Massignan, Virginia, El Damanhoury, Kareem, Winkler, Carol</td>
 <td>OSF</td>
 <td>2023</td>
 <td>Framing</td>
 </tr>
 <tr>
 <td><a href="codebooks/87-blaming-it-on-nato-framing-the-russian-invasion-of/">Blaming it on NATO? Framing the Russian Invasion of Ukraine on Twitter</a></td>
+<td>Kobilke, Lara, Kulichkina, Aytalina</td>
 <td>OSF</td>
 <td>2022</td>
 <td>Framing, Political Content</td>
 </tr>
 <tr>
 <td><a href="codebooks/181-distinct-patterns-of-incidental-exposure-to-and-ac/">Distinct Patterns of Incidental Exposure to and Active Selection of Ra</a></td>
+<td>Rottweiler, Bettina, Schumann, Sandy, Clemmow, Caitlin</td>
 <td>OSF</td>
 <td>2022</td>
 <td>Elections, Extremism</td>
 </tr>
 <tr>
 <td><a href="codebooks/180-intergenerational-transmission-of-extremism-nctv-p/">Intergenerational Transmission of Extremism [NCTV project] - published</a></td>
+<td>van Wieringen, Layla, Liem, Marieke, Weggemans, Daan</td>
 <td>OSF</td>
 <td>2022</td>
 <td>Extremism</td>
 </tr>
 <tr>
 <td><a href="codebooks/83-interparty-relations-on-twitter/">Interparty relations on Twitter</a></td>
+<td>Heltzel, Gordon, Laurin, Kristin</td>
 <td>OSF</td>
 <td>2022</td>
 <td>Partisanship, Political Content, Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/187-nrw-wahl/">NRW-Wahl</a></td>
+<td>Dreston, Jana H, Neubaum, German</td>
 <td>OSF</td>
 <td>2022</td>
 <td>Campaigns, Elections, Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/70-the-role-of-incivility-and-moral-disengagement-in-/">The role of incivility and moral disengagement in dehumanisation.</a></td>
+<td>Moreno-Gata, Sofía</td>
 <td>OSF</td>
 <td>2022</td>
 <td>Incivility</td>
 </tr>
 <tr>
 <td><a href="codebooks/22-fb-data/">FB Data</a></td>
+<td>Moran, Rachel E, Nguyễn, Sarah</td>
 <td>OSF</td>
 <td>2021</td>
 <td>Campaigns, Disinformation, Elections, Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/183-fighting-violent-extremism-with-narrative-interven/">Fighting Violent Extremism with Narrative Intervention</a></td>
+<td>Bilali, Rezarta</td>
 <td>OSF</td>
 <td>2021</td>
 <td>Extremism</td>
 </tr>
 <tr>
 <td><a href="codebooks/193-moral-perceptions-about-environmentalism-across-id/">Moral Perceptions about Environmentalism across Ideological Groups: Ne</a></td>
+<td>Catena-Fernández, Cristian, Fernández, Saulo</td>
 <td>OSF</td>
 <td>2021</td>
 <td>Framing, Partisanship, Polarization</td>
 </tr>
 <tr>
 <td><a href="codebooks/31-nohate-2017-2021/">NOHATE (2017–2021)</a></td>
+<td>Strippel, Christian, Paasch-Colberg, Sünje, Emmer, Martin…</td>
 <td>OSF</td>
 <td>2021</td>
 <td>Framing, Hate Speech, Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/176-assessing-the-extent-and-types-of-hate-speech-in-f/">Assessing the Extent and Types of Hate Speech in Fringe Communities</a></td>
+<td>Rieger, Diana, Kümpel, Anna S, Wich, Max, Groh, Georg, Ki…</td>
 <td>OSF</td>
 <td>2020</td>
 <td>Hate Speech, Polarization, Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/188-bundestagswahl-fien-k-ntzel/">Bundestagswahl Fien/Küntzel</a></td>
+<td>Lang, Anna, Fien, Leandra, Küntzel, Benjamin</td>
 <td>OSF</td>
 <td>2020</td>
 <td>Campaigns, Elections</td>
 </tr>
 <tr>
 <td><a href="codebooks/7-codebuch-zur-studie-eigeninteressen-in-der-bericht/">Codebuch zur Studie «Eigeninteressen in der Berichterstattung über med</a></td>
+<td>Pedrazzi, Stefano</td>
 <td>Zenodo</td>
 <td>2020</td>
 <td>Framing</td>
 </tr>
 <tr>
 <td><a href="codebooks/178-gendered-hate-speech-in-youtube-and-younow-comment/">Gendered hate speech in YouTube and YouNow comments: Results of two co</a></td>
+<td>Döring, Nicola M, Mohseni, M. R</td>
 <td>OSF</td>
 <td>2020</td>
 <td>Hate Speech, Incivility, Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/79-perceived-polarization-and-online-activity-associa/">Perceived polarization and online activity associated with radical soc</a></td>
+<td>Pour, Marek, Serek, Jan</td>
 <td>OSF</td>
 <td>2020</td>
 <td>Polarization</td>
 </tr>
 <tr>
 <td><a href="codebooks/182-persistent-beliefs-political-extremism-predicts-id/">Persistent beliefs: Political extremism predicts ideological stability</a></td>
+<td>Zwicker, Maria V, van Prooijen, Jan-Willem, Krouwel, André</td>
 <td>OSF</td>
 <td>2020</td>
 <td>Extremism, Polarization</td>
 </tr>
 <tr>
 <td><a href="codebooks/68-negative-campaigning-comparative-data-negex-releas/">Negative Campaigning Comparative Data (NEGex), release 1.0</a></td>
+<td>Nai, Alessandro</td>
 <td>OSF</td>
 <td>2019</td>
 <td>Campaigns, Elections, Negative Campaigning, Populism</td>
 </tr>
 <tr>
 <td><a href="codebooks/184-political-extremism-and-migration-intentions-of-re/">Political Extremism and Migration Intentions of Refugees</a></td>
+<td>Jasko, Katarzyna</td>
 <td>OSF</td>
 <td>2019</td>
 <td>Extremism</td>
 </tr>
 <tr>
 <td><a href="codebooks/120-supplementary-materials-youtube-videos-opposing-hi/">Supplementary Materials: YouTube Videos opposing Hillary Clinton</a></td>
+<td>Voelkel, Jan G, Feinberg, Matthew</td>
 <td>OSF</td>
 <td>2017</td>
-<td>Campaigns, Elections, Negative Campaigning, Political Content</td>
+<td>Campaigns, Elections, Negative Campaigning, Political Content, Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/121-supplementary-materials-youtube-videos-opposing-do/">Supplementary Materials: YouTube videos opposing Donald Trump</a></td>
+<td>Voelkel, Jan G, Feinberg, Matthew</td>
 <td>OSF</td>
 <td>2017</td>
-<td>Campaigns, Elections, Framing, Negative Campaigning</td>
+<td>Campaigns, Elections, Framing, Negative Campaigning, Political Content, Social Media</td>
 </tr>
 <tr>
 <td><a href="codebooks/186-politik-und-dialekt/">Politik und Dialekt</a></td>
+<td>Vögele, Catharina, Bachl, Marko</td>
 <td>OSF</td>
 <td>2016</td>
 <td>—</td>
@@ -4229,10 +1198,12 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.top", "search.highlight", "search.suggest", "content.tooltips"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.top", "search.highlight", "search.suggest", "content.tooltips"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="custom.js"></script>
       
     
   </body>
