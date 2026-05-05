@@ -16,6 +16,18 @@
   --md-code-bg-color:    #f6f8fa;
 }
 
+/* ── Override Material's inline-block table wrapper for our table ────────── */
+#cb-main .md-typeset__scrollwrap {
+  overflow-x: visible !important;
+  margin: 0 !important;
+}
+#cb-main .md-typeset__table {
+  display: block !important;
+  width: 100% !important;
+  padding: 0 !important;
+  min-width: unset !important;
+}
+
 /* ── Codebook index table ────────────────────────────────────────────────── */
 #cb-table {
   width: 100%;
