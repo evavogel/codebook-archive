@@ -16,6 +16,12 @@
   --md-code-bg-color:    #f6f8fa;
 }
 
+/* ── Shift grid to the left edge so table has maximum horizontal space ────── */
+.md-grid {
+  margin-left: 0 !important;
+  max-width: 1840px !important;
+}
+
 /* ── Override Material's inline-block table wrapper for our table ────────── */
 #cb-main .md-typeset__scrollwrap {
   overflow-x: visible !important;
@@ -31,7 +37,6 @@
 /* ── Codebook index table ────────────────────────────────────────────────── */
 #cb-table {
   width: 100%;
-  table-layout: fixed;
   border-collapse: collapse;
   font-size: .85rem;
   margin-top: .75rem;
@@ -70,12 +75,13 @@
   width: 100%;
 }
 
-/* Right column — hidden until JS measures content and positions it */
+/* Right column — hidden until JS positions it */
 #cb-right-col {
   display: none;
   flex-direction: column;
   gap: .85rem;
   z-index: 10;
+  max-width: 280px;
 }
 
 /* ── Filter bar ──────────────────────────────────────────────────────────── */

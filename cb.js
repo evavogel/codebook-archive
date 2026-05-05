@@ -8,34 +8,28 @@ document.addEventListener("DOMContentLoaded", function () {
     var rightCol = document.getElementById("cb-right-col");
     if (!rightCol) return;
 
-    var content = document.querySelector(".md-content__inner");
-    if (!content) return;
-
-    // Measure the actual table right edge (it may overflow the content div)
     var table = document.getElementById("cb-table");
-    var tableRight = table
-      ? Math.round(table.getBoundingClientRect().right)
-      : Math.round(content.getBoundingClientRect().right);
+    if (!table) return;
 
-    var gap = 36;
-    var rightMargin = 16; // gap from right edge of viewport
-    var left = tableRight + gap;
-    var availableWidth = window.innerWidth - left - rightMargin;
+    var boxWidth = 260;
+    var rightMargin = 20;
+    var gap = 24;
 
-    if (availableWidth < 180) {
+    var tableRight = Math.round(table.getBoundingClientRect().right);
+    var availableRight = window.innerWidth - tableRight - gap - rightMargin;
+
+    if (availableRight < boxWidth) {
       rightCol.style.display = "none";
       return;
     }
 
-    // Use ALL available space to the right — no artificial width cap
-    var width = availableWidth;
-
+    // Pin to the right edge of the viewport
     rightCol.style.position = "fixed";
-    rightCol.style.left = left + "px";
+    rightCol.style.right = rightMargin + "px";
+    rightCol.style.left = "auto";
     rightCol.style.top = "4.5rem";
-    rightCol.style.width = width + "px";
+    rightCol.style.width = boxWidth + "px";
     rightCol.style.display = "flex";
-    rightCol.style.right = "auto";
   }
 
   positionRightCol();
