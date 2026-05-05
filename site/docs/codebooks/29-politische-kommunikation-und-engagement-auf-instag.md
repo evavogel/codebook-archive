@@ -1,12 +1,11 @@
 ---
 title: "Politische Kommunikation und Engagement auf Instagram:  Strategien während der ostdeutschen Landtagswahlkämpfen 2024"
-tags:
-  - Campaigns
-  - Elections
-  - Political Content
-  - Social Media
 ---
 # Politische Kommunikation und Engagement auf Instagram:  Strategien während der ostdeutschen Landtagswahlkämpfen 2024
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -18,6 +17,8 @@ tags:
 
 
 
+
+<div class="cb-classification">
 
 ## Classification
 
@@ -31,5 +32,7 @@ tags:
     **Codebook terms matched:** codebuch
 
     **Topic terms matched:** instagram, politisch, wahl, politische kommunikation
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/46z8n/){ .md-button .md-button--primary }

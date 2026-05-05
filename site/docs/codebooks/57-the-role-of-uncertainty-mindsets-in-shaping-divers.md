@@ -1,9 +1,11 @@
 ---
 title: "The Role of Uncertainty Mindsets in Shaping Diversity Attitudes and Their Downstream Effects on Commitment to Societal Change and Right-Wing Populist Voting"
-tags:
-  - Populism
 ---
 # The Role of Uncertainty Mindsets in Shaping Diversity Attitudes and Their Downstream Effects on Commitment to Societal Change and Right-Wing Populist Voting
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -15,6 +17,8 @@ tags:
 
 
 
+
+<div class="cb-classification">
 
 ## Classification
 
@@ -28,5 +32,7 @@ tags:
     **Codebook terms matched:** codebook
 
     **Topic terms matched:** populis, populis
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/9ks2n/){ .md-button .md-button--primary }

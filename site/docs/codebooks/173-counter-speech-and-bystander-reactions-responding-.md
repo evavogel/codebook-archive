@@ -1,9 +1,11 @@
 ---
 title: "Counter-speech and Bystander Reactions Responding to Hate Speech Online"
-tags:
-  - Hate Speech
 ---
 # Counter-speech and Bystander Reactions Responding to Hate Speech Online
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -15,6 +17,8 @@ tags:
 
 
 
+
+<div class="cb-classification">
 
 ## Classification
 
@@ -28,5 +32,7 @@ tags:
     **Codebook terms matched:** codebook
 
     **Topic terms matched:** hate speech
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/xqmnk/){ .md-button .md-button--primary }

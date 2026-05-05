@@ -1,10 +1,11 @@
 ---
 title: "Distinct Patterns of Incidental Exposure to and Active Selection of Radicalizing Information Indicate Varying Levels of Support for Violent Extremism"
-tags:
-  - Elections
-  - Extremism
 ---
 # Distinct Patterns of Incidental Exposure to and Active Selection of Radicalizing Information Indicate Varying Levels of Support for Violent Extremism
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -16,6 +17,8 @@ tags:
 
 
 
+
+<div class="cb-classification">
 
 ## Classification
 
@@ -29,5 +32,7 @@ tags:
     **Codebook terms matched:** code book
 
     **Topic terms matched:** election, extremism
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/jxsva/){ .md-button .md-button--primary }

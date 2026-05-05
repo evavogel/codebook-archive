@@ -1,11 +1,11 @@
 ---
 title: "Intimate and Opinion-Oriented Communication? Examining Social Media Influencers’  Opinion Leader Potential Through Their Political Content"
-tags:
-  - Political Content
-  - Political Influencers
-  - Social Media
 ---
 # Intimate and Opinion-Oriented Communication? Examining Social Media Influencers’  Opinion Leader Potential Through Their Political Content
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -17,6 +17,8 @@ tags:
 
 
 
+
+<div class="cb-classification">
 
 ## Classification
 
@@ -30,5 +32,7 @@ tags:
     **Codebook terms matched:** codebook
 
     **Topic terms matched:** political, social media, influencer, social media, influencer
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/n6jqp/){ .md-button .md-button--primary }

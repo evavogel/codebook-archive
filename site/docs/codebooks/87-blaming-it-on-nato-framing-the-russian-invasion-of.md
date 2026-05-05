@@ -1,10 +1,11 @@
 ---
 title: "Blaming it on NATO? Framing the Russian Invasion of Ukraine on Twitter"
-tags:
-  - Framing
-  - Political Content
 ---
 # Blaming it on NATO? Framing the Russian Invasion of Ukraine on Twitter
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -21,6 +22,8 @@ tags:
 Respository for the paper "Blaming it on NATO? Framing the Role of NATO in the Full-Scale Russian Invasion of Ukraine on Twitter".
 
 
+<div class="cb-classification">
+
 ## Classification
 
 > Project explicitly contains a codebook file (Codebook_v1.0.pdf) and studies political framing of a major geopolitical conflict on social media, directly relevant to political communication research.
@@ -33,5 +36,7 @@ Respository for the paper "Blaming it on NATO? Framing the Role of NATO in the F
     **Codebook terms matched:** codebook
 
     **Topic terms matched:** twitter, framing, framing
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/d475w/){ .md-button .md-button--primary }

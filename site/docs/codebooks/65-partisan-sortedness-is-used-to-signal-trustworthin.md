@@ -1,9 +1,11 @@
 ---
 title: "Partisan sortedness is used to signal trustworthiness"
-tags:
-  - Partisanship
 ---
 # Partisan sortedness is used to signal trustworthiness
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -15,6 +17,8 @@ tags:
 
 
 
+
+<div class="cb-classification">
 
 ## Classification
 
@@ -28,5 +32,7 @@ tags:
     **Codebook terms matched:** codebook
 
     **Topic terms matched:** partisan
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/2gkfw/){ .md-button .md-button--primary }

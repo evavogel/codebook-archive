@@ -1,11 +1,11 @@
 ---
 title: "Assessing the Extent and Types of Hate Speech in Fringe Communities"
-tags:
-  - Hate Speech
-  - Polarization
-  - Social Media
 ---
 # Assessing the Extent and Types of Hate Speech in Fringe Communities
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -22,6 +22,8 @@ tags:
 Additional material for the paper "Assessing the Extent and Types of Hate Speech in Fringe Communities: A Case Study of Alt-Right Communities on 8chan, 4chan, and Reddit"
 
 
+<div class="cb-classification">
+
 ## Classification
 
 > The project explicitly contains a codebook PDF for classifying hate speech in alt-right communities on social platforms, which is directly relevant to political communication research on polarization and extremist rhetoric.
@@ -34,5 +36,7 @@ Additional material for the paper "Assessing the Extent and Types of Hate Speech
     **Codebook terms matched:** codebook
 
     **Topic terms matched:** hate speech
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/yfxzw/){ .md-button .md-button--primary }

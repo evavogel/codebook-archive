@@ -1,10 +1,11 @@
 ---
 title: "Bundestagswahl Fien/Küntzel"
-tags:
-  - Campaigns
-  - Elections
 ---
 # Bundestagswahl Fien/Küntzel
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -16,6 +17,8 @@ tags:
 
 
 
+
+<div class="cb-classification">
 
 ## Classification
 
@@ -29,5 +32,7 @@ tags:
     **Codebook terms matched:** codebuch
 
     **Topic terms matched:** wahl
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/dmqkv/){ .md-button .md-button--primary }

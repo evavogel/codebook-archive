@@ -1,9 +1,11 @@
 ---
 title: "A Socio-Cultural Reconceptualization and Operationalization of Populist Attitudes: The United States Case Study"
-tags:
-  - Populism
 ---
 # A Socio-Cultural Reconceptualization and Operationalization of Populist Attitudes: The United States Case Study
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -15,6 +17,8 @@ tags:
 
 
 
+
+<div class="cb-classification">
 
 ## Classification
 
@@ -28,5 +32,7 @@ tags:
     **Codebook terms matched:** codebook
 
     **Topic terms matched:** populis, populis
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/eauh7/){ .md-button .md-button--primary }

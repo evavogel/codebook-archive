@@ -1,9 +1,11 @@
 ---
 title: "The role of incivility and moral disengagement in dehumanisation."
-tags:
-  - Incivility
 ---
 # The role of incivility and moral disengagement in dehumanisation.
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -20,6 +22,8 @@ tags:
 We want to study the extent to which immoral behaviours that are also associated with high or low levels of incivility dehumanise unequally. Furthermore, different ways of rationalising these deviant behaviours will dehumanise to a greater or lesser extent.
 
 
+<div class="cb-classification">
+
 ## Classification
 
 > Project contains explicit codebook files (Codebook-Study1.pdf, Codebook-Study2.pdf) and matched 'incivility' term; incivility is a core political communication construct, though the study's primary focus on moral disengagement and dehumanization in general contexts creates moderate uncertainty about whether the codebook addresses explicitly political dimensions.
@@ -32,5 +36,7 @@ We want to study the extent to which immoral behaviours that are also associated
     **Codebook terms matched:** codebook
 
     **Topic terms matched:** incivility
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/4ehxq/){ .md-button .md-button--primary }

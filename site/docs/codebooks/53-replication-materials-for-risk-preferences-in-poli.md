@@ -1,10 +1,11 @@
 ---
 title: "Replication Materials for Risk Preferences in Political Campaigns: Effects on Voter Approval"
-tags:
-  - Campaigns
-  - Elections
 ---
 # Replication Materials for Risk Preferences in Political Campaigns: Effects on Voter Approval
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -21,6 +22,8 @@ tags:
 Replication materials and codebook
 
 
+<div class="cb-classification">
+
 ## Classification
 
 > Project explicitly mentions 'codebook' in description and file names, with clear political communication focus on voter approval and political campaigns.
@@ -33,5 +36,7 @@ Replication materials and codebook
     **Codebook terms matched:** codebook
 
     **Topic terms matched:** political, campaign
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/t3vx2/){ .md-button .md-button--primary }

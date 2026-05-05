@@ -16,19 +16,9 @@ theme:
   name: material
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+      primary: custom
+      accent: custom
   features:
-    - navigation.tabs
     - navigation.top
     - search.highlight
     - search.suggest
@@ -39,7 +29,15 @@ theme:
 
 plugins:
   - search
-  - tags
+
+extra_css:
+  - custom.css
+
+extra_javascript:
+  - custom.js
+
+nav:
+  - Codebooks: index.md
 
 markdown_extensions:
   - attr_list

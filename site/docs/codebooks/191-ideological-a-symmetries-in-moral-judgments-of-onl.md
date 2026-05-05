@@ -1,11 +1,11 @@
 ---
 title: "Ideological (A-)Symmetries in Moral Judgments of Online Hate"
-tags:
-  - Framing
-  - Hate Speech
-  - Social Media
 ---
 # Ideological (A-)Symmetries in Moral Judgments of Online Hate
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -17,6 +17,8 @@ tags:
 
 
 
+
+<div class="cb-classification">
 
 ## Classification
 
@@ -30,5 +32,7 @@ tags:
     **Codebook terms matched:** codebook
 
     **Topic terms matched:** political, social media, ideolog, hate speech, social media, ideologi
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/j7ewg/){ .md-button .md-button--primary }

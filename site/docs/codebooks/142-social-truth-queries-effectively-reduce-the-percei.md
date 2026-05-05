@@ -1,10 +1,11 @@
 ---
 title: "Social Truth Queries Effectively Reduce the Perceived Accuracy of Misinformation Across Age Groups and Social Contexts"
-tags:
-  - Disinformation
-  - Social Media
 ---
 # Social Truth Queries Effectively Reduce the Perceived Accuracy of Misinformation Across Age Groups and Social Contexts
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -16,6 +17,8 @@ tags:
 
 
 
+
+<div class="cb-classification">
 
 ## Classification
 
@@ -29,5 +32,7 @@ tags:
     **Codebook terms matched:** codebook
 
     **Topic terms matched:** misinformation
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/vurw9/){ .md-button .md-button--primary }

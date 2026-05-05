@@ -1,11 +1,11 @@
 ---
 title: "Algorithmic Ranking of Divisive Expressions in YouTube User Comments"
-tags:
-  - Incivility
-  - Polarization
-  - Social Media
 ---
 # Algorithmic Ranking of Divisive Expressions in YouTube User Comments
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -17,6 +17,8 @@ tags:
 
 
 
+
+<div class="cb-classification">
 
 ## Classification
 
@@ -30,5 +32,7 @@ tags:
     **Codebook terms matched:** coding guidelines
 
     **Topic terms matched:** youtube
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/tep3q/){ .md-button .md-button--primary }

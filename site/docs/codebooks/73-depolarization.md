@@ -1,9 +1,11 @@
 ---
 title: "Depolarization"
-tags:
-  - Polarization
 ---
 # Depolarization
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -20,6 +22,8 @@ tags:
 In this research, we conduct a systematic literature review to identify recommendations for depolarizing public debates and assessing the evidence-base for each recommendation.
 
 
+<div class="cb-classification">
+
 ## Classification
 
 > Project explicitly includes a codebook file (Codebook.pdf) and coding sheet for a systematic literature review on political polarization and depolarization strategies, directly relevant to political communication research.
@@ -32,5 +36,7 @@ In this research, we conduct a systematic literature review to identify recommen
     **Codebook terms matched:** codebook
 
     **Topic terms matched:** polarization
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/5zsn9/){ .md-button .md-button--primary }

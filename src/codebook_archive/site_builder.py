@@ -117,16 +117,17 @@ def _build_codebook_page(row: sqlite3.Row) -> str:
 
     frontmatter = f"""---
 title: "{title.replace('"', "'")}"
-tags:
-{tags_yaml if tags_yaml else "  - Uncategorised"}
 ---
 """
 
-    doi_line = f"\n**DOI:** [{doi}](https://doi.org/{doi})" if doi else ""
     desc_block = f"\n## Description\n\n{description}\n" if description else ""
     concepts_block = f"\n**Concepts:** {concepts_str}" if concepts_str else ""
 
     body = f"""# {title}
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -138,6 +139,8 @@ tags:
 {f"| DOI | [{doi}](https://doi.org/{doi}) |" if doi else ""}
 
 {desc_block}
+
+<div class="cb-classification">
 
 ## Classification
 
@@ -151,12 +154,30 @@ tags:
 
     **Topic terms matched:** {topic_terms}
 
+</div>
+
 [View on {source_label} :octicons-link-external-16:]({source_url}){{ .md-button .md-button--primary }}
 """
     return frontmatter + body
 
 
 def _build_index(rows: list[sqlite3.Row]) -> str:
+    # Collect tag counts
+    tag_counts: dict[str, int] = {}
+    for row in rows:
+        for tag in _concepts_to_tags(row["classifier_concepts"]):
+            tag_counts[tag] = tag_counts.get(tag, 0) + 1
+    sorted_tags = sorted(tag_counts.items(), key=lambda x: -x[1])
+
+    # Filter buttons HTML
+    filter_buttons = [
+        f'<button class="cb-tag active" data-tag="">All <span class="cb-count">({len(rows)})</span></button>'
+    ]
+    for tag, count in sorted_tags:
+        filter_buttons.append(
+            f'<button class="cb-tag" data-tag="{tag}">{tag} <span class="cb-count">({count})</span></button>'
+        )
+
     lines = [
         "---",
         "title: Codebook Archive",
@@ -164,28 +185,48 @@ def _build_index(rows: list[sqlite3.Row]) -> str:
         "",
         "# Political Communication Codebook Archive",
         "",
-        "A curated collection of codebooks and annotation schemes used in "
-        "political communication research. All entries have been verified by "
-        "automated classification and are available from open-access repositories.",
+        '<div class="cb-disclaimer">',
+        "<strong>About this archive</strong>",
+        "Entries are discovered automatically by keyword search on "
+        "<a href='https://osf.io'>OSF</a> and "
+        "<a href='https://zenodo.org'>Zenodo</a>. "
+        "Each entry is then pre-screened by <strong>Claude Haiku 4.5</strong> "
+        "(Anthropic's AI language model), which assesses whether the item is "
+        "likely a codebook or annotation scheme used in political communication "
+        "research. Classification results are not guaranteed to be correct — "
+        "an entry may appear here even if it does not contain a codebook suitable "
+        "for your research. Always check the linked source before citing. "
+        "The reasoning text on each entry page is AI-generated.",
+        "</div>",
         "",
-        f"**{len(rows)} codebooks** indexed from OSF and Zenodo.",
+        '<div id="cb-controls">',
+        '<div id="cb-filter-row">',
+        "<span>Filter by topic:</span>",
+        *filter_buttons,
+        "</div>",
+        '<input id="cb-search" type="text" placeholder="Search by title or author…" />',
+        '<div id="cb-count-label"></div>',
+        "</div>",
         "",
-        "Use the search bar above or browse by tag in the navigation.",
-        "",
-        "---",
-        "",
-        "| Title | Source | Year | Concepts |",
-        "|---|---|---|---|",
+        "| Title | Authors | Source | Year | Topics |",
+        "|---|---|---|---|---|",
     ]
+
     for row in rows:
         title = (row["title"] or "Untitled").replace("|", "—")
         slug = _slug(title)
         page_path = f"codebooks/{row['id']}-{slug}"
         source_label = _source_badge(row["source"])
         year = row["year"] or "n.d."
+        authors_str = (_flatten_json(row["authors"]) or "—").replace("|", "—")
+        # Truncate long author lists
+        if len(authors_str) > 60:
+            authors_str = authors_str[:57] + "…"
         tags = _concepts_to_tags(row["classifier_concepts"])
-        tags_str = ", ".join(tags[:4]) if tags else "—"
-        lines.append(f"| [{title[:70]}]({page_path}.md) | {source_label} | {year} | {tags_str} |")
+        tags_str = ", ".join(tags) if tags else "—"
+        lines.append(
+            f"| [{title[:70]}]({page_path}.md) | {authors_str} | {source_label} | {year} | {tags_str} |"
+        )
 
     return "\n".join(lines) + "\n"
 
@@ -216,15 +257,11 @@ def build(accepted_only: bool = True) -> dict[str, int]:
     # Index page
     (DOCS_DIR / "index.md").write_text(_build_index(rows), encoding="utf-8")
 
-    # Tags stub required by the tags plugin
-    (DOCS_DIR / "tags.md").write_text(
-        "---\ntitle: Browse by Tag\n---\n\n# Browse by Tag\n\n[TAGS]\n",
-        encoding="utf-8",
-    )
+    # Remove stale tags stub if present (tags plugin removed)
+    tags_path = DOCS_DIR / "tags.md"
+    if tags_path.exists():
+        tags_path.unlink()
 
-    # CNAME for GitHub Pages custom domain
-    cname_path = REPO_ROOT / "site" / "docs" / "CNAME"
-    # The CNAME must be in site_dir (build output), handled via docs extra
     (REPO_ROOT / "site" / "build").mkdir(parents=True, exist_ok=True)
 
     log.info("Wrote %d codebook pages + index", written)

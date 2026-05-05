@@ -1,9 +1,11 @@
 ---
 title: "Codebuch - Projekt 'Desinformationsverhalten Verstehen'"
-tags:
-  - Disinformation
 ---
 # Codebuch - Projekt "Desinformationsverhalten Verstehen"
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -21,6 +23,8 @@ tags:
 <p>Die qualitative Analyse basierte auf Daten, die im Rahmen zweier Erhebungsphasen &uuml;ber eine eigens entwickelte App gesammelt wurden. Teilnehmende konnten dar&uuml;ber regelm&auml;&szlig;ig Situationen, in denen
 
 
+<div class="cb-classification">
+
 ## Classification
 
 > Title and matched terms explicitly identify this as a codebook (Codebuch) focused on understanding disinformation dissemination mechanisms, which is a core political communication research concept, though the health information focus introduces some domain specificity.
@@ -33,5 +37,7 @@ tags:
     **Codebook terms matched:** codebook, codebuch
 
     **Topic terms matched:** disinformation, misinformation, desinformation
+
+</div>
 
 [View on Zenodo :octicons-link-external-16:](https://zenodo.org/records/15295766){ .md-button .md-button--primary }

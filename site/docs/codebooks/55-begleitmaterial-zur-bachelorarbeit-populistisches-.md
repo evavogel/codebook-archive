@@ -1,10 +1,11 @@
 ---
 title: "Begleitmaterial zur Bachelorarbeit 'Populistisches Wahlverhalten junger Erwachsener in Deutschland: Prädiktoren im Kontext der Einstellungs-Verhaltens-Beziehung'"
-tags:
-  - Elections
-  - Populism
 ---
 # Begleitmaterial zur Bachelorarbeit "Populistisches Wahlverhalten junger Erwachsener in Deutschland: Prädiktoren im Kontext der Einstellungs-Verhaltens-Beziehung"
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -24,6 +25,8 @@ Dieses Projekt beinhaltet die Daten und das Codebuch für die Bachelorarbeit „
 This project contains the data and codebook for the Bachelors thesis "Populist Voting Behavior of Young Adults in Germany: Predictors in the Context of the Attitude-Behavior Relationship" (Chrysikakis, 2026). The dataset (N=449) includes, among others, data regarding the following: voting behavior in the 20
 
 
+<div class="cb-classification">
+
 ## Classification
 
 > The project explicitly mentions a codebook file (Chrysikakis_2026_Codebook.pdf) accompanying a dataset on populist voting behavior in German federal elections, measuring populist attitudes and related political-psychological constructs—clearly within political communication research scope.
@@ -36,5 +39,7 @@ This project contains the data and codebook for the Bachelors thesis "Populist V
     **Codebook terms matched:** codebook
 
     **Topic terms matched:** political, election, populis, politisch, wahl, populis
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/f73nh/){ .md-button .md-button--primary }

@@ -1,9 +1,11 @@
 ---
 title: "CCF-canadian-climate-framing"
-tags:
-  - Framing
 ---
 # CCF-canadian-climate-framing
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -24,6 +26,8 @@ Each sentence is annotated with 65 hierarchical categories using transformer-bas
 The models achieve a macro F1 score of 0.866 again
 
 
+<div class="cb-classification">
+
 ## Classification
 
 > Project explicitly contains a CODEBOOK.md file documenting 65 hierarchical annotation categories for climate discourse analysis, and framing is a core concept in political communication research relevant to how media constructs climate policy narratives.
@@ -36,5 +40,7 @@ The models achieve a macro F1 score of 0.866 again
     **Codebook terms matched:** codebook
 
     **Topic terms matched:** framing, framing
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/q5w47/){ .md-button .md-button--primary }

@@ -1,9 +1,11 @@
 ---
 title: "Codebuch zum Vortrag „Alltagshilfe oder Killer-Technologie? KI-Framing in deutsch- und englischsprachigen Medien', PolKomm 2023, Düsseldorf"
-tags:
-  - Framing
 ---
 # Codebuch zum Vortrag „Alltagshilfe oder Killer-Technologie? KI-Framing in deutsch- und englischsprachigen Medien", PolKomm 2023, Düsseldorf
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -15,6 +17,8 @@ tags:
 
 
 
+
+<div class="cb-classification">
 
 ## Classification
 
@@ -28,5 +32,7 @@ tags:
     **Codebook terms matched:** codebuch
 
     **Topic terms matched:** framing, framing
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/dg8n2/){ .md-button .md-button--primary }

@@ -1,13 +1,11 @@
 ---
 title: "Supplementary Materials: YouTube Videos opposing Hillary Clinton"
-tags:
-  - Campaigns
-  - Elections
-  - Negative Campaigning
-  - Political Content
-  - Social Media
 ---
 # Supplementary Materials: YouTube Videos opposing Hillary Clinton
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -19,6 +17,8 @@ tags:
 
 
 
+
+<div class="cb-classification">
 
 ## Classification
 
@@ -32,5 +32,7 @@ tags:
     **Codebook terms matched:** coding instructions
 
     **Topic terms matched:** youtube
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/n7bhq/){ .md-button .md-button--primary }

@@ -1,11 +1,11 @@
 ---
 title: "Funnier to me the more it offends them: The Benign Violation Theory and disparagement humor targeting conservative versus liberal values"
-tags:
-  - Framing
-  - Partisanship
-  - Polarization
 ---
 # Funnier to me the more it offends them: The Benign Violation Theory and disparagement humor targeting conservative versus liberal values
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -17,6 +17,8 @@ tags:
 
 
 
+
+<div class="cb-classification">
 
 ## Classification
 
@@ -30,5 +32,7 @@ tags:
     **Codebook terms matched:** codebook
 
     **Topic terms matched:** political
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/26q7k/){ .md-button .md-button--primary }

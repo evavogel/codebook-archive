@@ -1,11 +1,11 @@
 ---
 title: "Radical Mobilization in Times of Crisis.  Use and Effects of Appeals and Populist Communication Features  in Telegram Channels"
-tags:
-  - Political Content
-  - Populism
-  - Social Media
 ---
 # Radical Mobilization in Times of Crisis.  Use and Effects of Appeals and Populist Communication Features  in Telegram Channels
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -17,6 +17,8 @@ tags:
 
 
 
+
+<div class="cb-classification">
 
 ## Classification
 
@@ -30,5 +32,7 @@ tags:
     **Codebook terms matched:** codebook
 
     **Topic terms matched:** populis, populis
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/vjf6e/){ .md-button .md-button--primary }

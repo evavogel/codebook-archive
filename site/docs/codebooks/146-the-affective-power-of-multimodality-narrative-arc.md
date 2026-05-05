@@ -1,11 +1,11 @@
 ---
 title: "The Affective Power of Multimodality: Narrative Arcs and     Algorithmic Engagement in Turkish Electoral Propaganda (2023)"
-tags:
-  - Campaigns
-  - Elections
-  - Framing
 ---
 # The Affective Power of Multimodality: Narrative Arcs and     Algorithmic Engagement in Turkish Electoral Propaganda (2023)
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -45,6 +45,8 @@ This project contains all data, code, and supplementary materials for:
 [Add your final citation here 
 
 
+<div class="cb-classification">
+
 ## Classification
 
 > Project explicitly contains codebook.csv and intercoder reliability materials for coding 83 campaign videos in Turkish electoral propaganda, directly addressing political communication research with multimodal narrative arc classification.
@@ -57,5 +59,7 @@ This project contains all data, code, and supplementary materials for:
     **Codebook terms matched:** codebook
 
     **Topic terms matched:** political, politics, campaign, propaganda, political communication, propaganda
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/57b2k/){ .md-button .md-button--primary }

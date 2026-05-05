@@ -1,10 +1,11 @@
 ---
 title: "Systematic review AI influencers and persuasion"
-tags:
-  - Political Influencers
-  - Social Media
 ---
 # Systematic review AI influencers and persuasion
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -16,6 +17,8 @@ tags:
 
 
 
+
+<div class="cb-classification">
 
 ## Classification
 
@@ -29,5 +32,7 @@ tags:
     **Codebook terms matched:** codebook
 
     **Topic terms matched:** influencer, influencer
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/6tu2x/){ .md-button .md-button--primary }

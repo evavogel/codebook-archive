@@ -1,9 +1,11 @@
 ---
 title: "POLIDAS: Political ideology, identity and social attitudes study"
-tags:
-  - Partisanship
 ---
 # POLIDAS: Political ideology, identity and social attitudes study
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -22,6 +24,8 @@ The Polical Ideology, Identity &amp; Social Attitudes (POLIDAS) is the main prod
 La encuesta Política, Ideología y Actitudes Sociales (POLIDAS) es el producto principal del proyecto VRIDT #17/2021, cuyo objetivo principal fue medir variables ideológicas y psicosociales en una muestra de chileno/as a nivel nacional.
 
 
+<div class="cb-classification">
+
 ## Classification
 
 > Project explicitly contains a codebook file (codebook_esp.pdf) for a political ideology and social attitudes survey measuring ideological and psychosocial variables in a national sample, directly relevant to political communication research on ideology and identity.
@@ -34,5 +38,7 @@ La encuesta Política, Ideología y Actitudes Sociales (POLIDAS) es el producto 
     **Codebook terms matched:** codebook
 
     **Topic terms matched:** political, ideolog, ideologi
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/zfmd4/){ .md-button .md-button--primary }

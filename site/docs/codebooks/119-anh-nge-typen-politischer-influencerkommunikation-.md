@@ -1,9 +1,11 @@
 ---
 title: "Anhänge_Typen politischer Influencerkommunikation auf YouTube"
-tags:
-  - Political Influencers
 ---
 # Anhänge_Typen politischer Influencerkommunikation auf YouTube
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -15,6 +17,8 @@ tags:
 
 
 
+
+<div class="cb-classification">
 
 ## Classification
 
@@ -28,5 +32,7 @@ tags:
     **Codebook terms matched:** codebuch
 
     **Topic terms matched:** youtube, influencer, politisch, influencer
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/uckmn/){ .md-button .md-button--primary }

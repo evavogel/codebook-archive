@@ -1,11 +1,11 @@
 ---
 title: "NRW-Wahl"
-tags:
-  - Campaigns
-  - Elections
-  - Social Media
 ---
 # NRW-Wahl
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -22,6 +22,8 @@ tags:
 Study on the role of social media and knowledge for political participation before the NRW election in 2022.
 
 
+<div class="cb-classification">
+
 ## Classification
 
 > Project explicitly contains 'Codebook Items.xlsx' and 'Knowledge sub-categories.pdf' files, studies NRW 2022 election with focus on social media's role in political participation, directly matching political communication research domains.
@@ -34,5 +36,7 @@ Study on the role of social media and knowledge for political participation befo
     **Codebook terms matched:** codebook
 
     **Topic terms matched:** political, election, social media, wahl, social media
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/yhe6n/){ .md-button .md-button--primary }

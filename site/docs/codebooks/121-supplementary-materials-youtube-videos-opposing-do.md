@@ -1,14 +1,11 @@
 ---
 title: "Supplementary Materials: YouTube videos opposing Donald Trump"
-tags:
-  - Campaigns
-  - Elections
-  - Framing
-  - Negative Campaigning
-  - Political Content
-  - Social Media
 ---
 # Supplementary Materials: YouTube videos opposing Donald Trump
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -20,6 +17,8 @@ tags:
 
 
 
+
+<div class="cb-classification">
 
 ## Classification
 
@@ -33,5 +32,7 @@ tags:
     **Codebook terms matched:** coding instructions
 
     **Topic terms matched:** youtube
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/ad734/){ .md-button .md-button--primary }

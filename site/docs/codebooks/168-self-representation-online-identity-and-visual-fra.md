@@ -1,13 +1,11 @@
 ---
 title: "Self-representation, online identity, and visual framing of Spanish Members of Parliament on X"
-tags:
-  - Campaigns
-  - Elections
-  - Framing
-  - Political Content
-  - Social Media
 ---
 # Self-representation, online identity, and visual framing of Spanish Members of Parliament on X
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -24,6 +22,8 @@ tags:
 Introduction: Self-representation on social media has become a central mechanism through which political representatives construct their public image, simultaneously transforming political communication into all its dimensions. The aim of this study is to explore how the Spanish parliamentarians self-represent and construct their political image on X during the investiture of Pedro Sánchez. Methods: To that end, a deductive content analysis is applied on the images posted by Spanish representatives present in the investiture of Pedro Sánchez, developed during 15-16th November of 2023. Results: During the investiture sessions Spanish parliamentary representatives who had an active X account (90% of the total) published 204 self-representative images. The results revealed patterns in the way
 
 
+<div class="cb-classification">
+
 ## Classification
 
 > Project explicitly contains 'Coding Instructions.pdf' file and applies deductive content analysis to Spanish parliamentarians' self-representation on X (Twitter), examining visual framing during a political investiture—a clear example of a political communication codebook.
@@ -36,5 +36,7 @@ Introduction: Self-representation on social media has become a central mechanism
     **Codebook terms matched:** coding instructions
 
     **Topic terms matched:** political, social media, framing, political communication, social media, framing
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/y6unj/){ .md-button .md-button--primary }

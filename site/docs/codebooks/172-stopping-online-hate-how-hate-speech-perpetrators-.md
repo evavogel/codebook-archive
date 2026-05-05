@@ -1,9 +1,11 @@
 ---
 title: "Stopping Online Hate: How Hate Speech Perpetrators Respond to Different Counter-speech Strategies"
-tags:
-  - Hate Speech
 ---
 # Stopping Online Hate: How Hate Speech Perpetrators Respond to Different Counter-speech Strategies
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -15,6 +17,8 @@ tags:
 
 
 
+
+<div class="cb-classification">
 
 ## Classification
 
@@ -28,5 +32,7 @@ tags:
     **Codebook terms matched:** code book
 
     **Topic terms matched:** hate speech
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/hrqpy/){ .md-button .md-button--primary }

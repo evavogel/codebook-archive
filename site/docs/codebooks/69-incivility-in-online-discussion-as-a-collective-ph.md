@@ -1,9 +1,11 @@
 ---
 title: "Incivility in Online Discussion as a Collective Phenomenon: A Dynamic Systems Perspective Examining Sequences of Uncivil Messages"
-tags:
-  - Incivility
 ---
 # Incivility in Online Discussion as a Collective Phenomenon: A Dynamic Systems Perspective Examining Sequences of Uncivil Messages
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -15,6 +17,8 @@ tags:
 
 
 
+
+<div class="cb-classification">
 
 ## Classification
 
@@ -28,5 +32,7 @@ tags:
     **Codebook terms matched:** codebook
 
     **Topic terms matched:** incivility
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/wx65y/){ .md-button .md-button--primary }

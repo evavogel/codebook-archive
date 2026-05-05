@@ -1,9 +1,11 @@
 ---
 title: "Does Attitudinal Inoculation Confer Resistance to Violent Extremist Propaganda? Assessing Mechanisms, Long-term Effects, and the Advantage of Visuals"
-tags:
-  - Extremism
 ---
 # Does Attitudinal Inoculation Confer Resistance to Violent Extremist Propaganda? Assessing Mechanisms, Long-term Effects, and the Advantage of Visuals
+
+<div class="cb-auto-notice">
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+</div>
 
 | Field | Value |
 |---|---|
@@ -15,6 +17,8 @@ tags:
 
 
 
+
+<div class="cb-classification">
 
 ## Classification
 
@@ -28,5 +32,7 @@ tags:
     **Codebook terms matched:** code book
 
     **Topic terms matched:** propaganda, propaganda
+
+</div>
 
 [View on OSF :octicons-link-external-16:](https://osf.io/59cwa/){ .md-button .md-button--primary }
