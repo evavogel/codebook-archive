@@ -30,10 +30,13 @@
 }
 
 #cb-right-col {
-  flex: 0 0 290px;
+  flex: 0 0 320px;
   display: flex;
   flex-direction: column;
   gap: .85rem;
+  position: sticky;
+  top: 1rem;
+  align-self: flex-start;
 }
 
 @media (max-width: 600px) {
