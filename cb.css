@@ -36,11 +36,6 @@
   font-size: .85rem;
   margin-top: .75rem;
 }
-#cb-table th:nth-child(1), #cb-table td:nth-child(1) { width: 34%; }
-#cb-table th:nth-child(2), #cb-table td:nth-child(2) { width: 20%; }
-#cb-table th:nth-child(3), #cb-table td:nth-child(3) { width: 9%; }
-#cb-table th:nth-child(4), #cb-table td:nth-child(4) { width: 7%; }
-#cb-table th:nth-child(5), #cb-table td:nth-child(5) { width: 30%; }
 #cb-table th,
 #cb-table td {
   padding: .45rem .6rem;

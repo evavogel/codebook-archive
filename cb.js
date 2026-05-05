@@ -18,15 +18,17 @@ document.addEventListener("DOMContentLoaded", function () {
       : Math.round(content.getBoundingClientRect().right);
 
     var gap = 36;
+    var rightMargin = 16; // gap from right edge of viewport
     var left = tableRight + gap;
-    var availableWidth = window.innerWidth - left - 12;
+    var availableWidth = window.innerWidth - left - rightMargin;
 
     if (availableWidth < 180) {
       rightCol.style.display = "none";
       return;
     }
 
-    var width = Math.min(availableWidth, 380);
+    // Use ALL available space to the right — no artificial width cap
+    var width = availableWidth;
 
     rightCol.style.position = "fixed";
     rightCol.style.left = left + "px";
