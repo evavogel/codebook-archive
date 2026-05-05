@@ -187,6 +187,7 @@ def _build_index(rows: list[sqlite3.Row]) -> str:
         "# Political Communication Codebook Archive",
         "",
         '<div id="cb-index-header">',
+        '<div id="cb-right-col">',
         '<aside class="cb-disclaimer">',
         "<strong>About this archive</strong>"
         "<p>Entries are discovered automatically by keyword search on "
@@ -199,6 +200,19 @@ def _build_index(rows: list[sqlite3.Row]) -> str:
         "contain a codebook suitable for your research. Always check the linked "
         "source to see which files are available.</p>",
         "</aside>",
+        '<div class="cb-contact">',
+        '<div class="cb-contact-header">',
+        '<img src="https://emvogel.com/photo.jpg" alt="Eva Vogel" />',
+        "<div><strong>Eva Vogel</strong>"
+        "<span>University of Zurich</span></div>",
+        "</div>",
+        "<p>Got a codebook that belongs here? "
+        "I’d love to hear from you — whether you want to suggest "
+        "a new topic area or share your own annotation scheme. "
+        "This archive grows best with input from the community!</p>",
+        "<p>✉️ <a href='mailto:eva_vogel@web.de'>eva_vogel@web.de</a></p>",
+        "</div>",
+        "</div>",
         '<div id="cb-filter-row">',
         "<span>Filter by topic:</span>",
         filter_html,
