@@ -2,6 +2,17 @@ document.addEventListener("DOMContentLoaded", function () {
   var activeTag = "";
   var searchText = "";
 
+  // Move the right column into Material's right sidebar (which is empty on
+  // the index page since there are no sub-headings for a TOC).
+  var rightCol = document.getElementById("cb-right-col");
+  if (rightCol) {
+    var sidebar = document.querySelector(".md-sidebar--secondary .md-sidebar__scrollwrap");
+    if (sidebar) {
+      sidebar.appendChild(rightCol);
+      rightCol.style.display = "block";
+    }
+  }
+
   function getTable() {
     return document.getElementById("cb-table");
   }

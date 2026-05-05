@@ -47,38 +47,22 @@
   text-decoration: underline;
 }
 
-/* ── Widen Material content area for the archive ────────────────────────── */
-.md-grid {
-  max-width: 1600px;
-}
-
-/* ── Index layout: table left, sidebar right ────────────────────────────── */
+/* ── Index layout: full-width filter + table ────────────────────────────── */
 #cb-layout {
-  display: flex;
-  gap: 2.5rem;
-  align-items: flex-start;
+  display: block;
   margin-bottom: 1.2rem;
-  margin-right: -14.5rem; /* extend into the empty TOC sidebar area */
 }
 
 #cb-main {
-  flex: 1 1 0;
-  min-width: 0;
+  width: 100%;
 }
 
+/* Right column lives in Material's right sidebar (injected by cb.js) */
 #cb-right-col {
-  flex: 0 0 360px;
-  display: flex;
+  display: none; /* hidden until JS moves it into the sidebar */
   flex-direction: column;
   gap: .85rem;
-  position: sticky;
-  top: 1rem;
-  align-self: flex-start;
-}
-
-@media (max-width: 700px) {
-  #cb-layout { flex-direction: column; }
-  #cb-right-col { width: 100%; flex: none; }
+  padding: .75rem .5rem;
 }
 
 /* ── Filter bar ──────────────────────────────────────────────────────────── */
