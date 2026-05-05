@@ -9,6 +9,7 @@ from rich.console import Console
 from rich.logging import RichHandler
 from rich.table import Table
 
+from .classify import run_classifier
 from .config import Keywords, Settings
 from .db import connect
 from .export import export_candidates
@@ -59,6 +60,29 @@ def export(
     _setup_logging(False)
     path = export_candidates(status=status)
     console.print(f"[green]Wrote[/green] {path}")
+
+
+@app.command()
+def classify(
+    model: str = typer.Option("claude-haiku-4-5", help="Anthropic model to use."),
+    no_file_check: bool = typer.Option(False, "--no-file-check", help="Skip HTTP availability check."),
+    dry_run: bool = typer.Option(False, "--dry-run", help="Print candidates without calling the API."),
+    verbose: bool = typer.Option(False, "--verbose", "-v"),
+) -> None:
+    """Run the LLM classifier on all unclassified candidates."""
+    _setup_logging(verbose)
+    settings = Settings.from_env()
+    if not dry_run and not settings.anthropic_api_key:
+        raise typer.BadParameter("ANTHROPIC_API_KEY not set in .env")
+    with connect() as conn:
+        counts = run_classifier(
+            conn,
+            settings,
+            model=model,
+            check_files=not no_file_check,
+            dry_run=dry_run,
+        )
+    console.print(counts)
 
 
 @app.command()

@@ -25,7 +25,7 @@ OUT_DIR = REPO_ROOT / "out"
 for d in (DATA_DIR, RAW_DIR, TEXT_DIR, CACHE_DIR, OUT_DIR):
     d.mkdir(parents=True, exist_ok=True)
 
-load_dotenv(REPO_ROOT / ".env")
+load_dotenv(REPO_ROOT / ".env", override=True)
 
 
 @dataclass(frozen=True)

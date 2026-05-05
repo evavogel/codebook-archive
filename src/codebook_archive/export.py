@@ -22,6 +22,11 @@ CSV_FIELDS = [
     "matched_codebook_terms",
     "matched_topic_terms",
     "review_status",
+    "classifier_status",
+    "classifier_confidence",
+    "classifier_concepts",
+    "classifier_reasoning",
+    "file_available",
     "description",
     "file_urls",
     "discovered_at",
@@ -61,10 +66,13 @@ def export_candidates(out_path: Path | None = None, status: str = "all") -> Path
         for row in rows:
             w.writerow(
                 [
-                    _flatten(row[k]) if k in {"authors", "matched_codebook_terms",
-                                              "matched_topic_terms", "file_urls"}
+                    _flatten(row[k]) if k in {
+                        "authors", "matched_codebook_terms", "matched_topic_terms",
+                        "file_urls", "classifier_concepts",
+                    }
                     else (row[k] if row[k] is not None else "")
                     for k in CSV_FIELDS
+                    if k in dict(row)  # gracefully skip columns not yet in DB
                 ]
             )
     return out_path
