@@ -2,7 +2,7 @@
 
 A curated, searchable archive of political-communication codebooks discovered from open sources (OSF, Zenodo, Figshare, OpenAlex, SocArXiv, GitHub).
 
-Maintained by Eva Vogel (UZH). Site: https://codebooks.emvogel.com (forthcoming).
+Maintained by Eva Vogel (UZH). Site: https://emvogel.com/codebook-archive/
 
 ## What this is
 
