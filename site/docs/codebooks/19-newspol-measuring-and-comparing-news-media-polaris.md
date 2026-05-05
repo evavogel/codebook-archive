@@ -10,7 +10,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/m7sgx/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Esau, Katharina, Riedlinger, Michelle, Bruns, Axel, Vodden, Laura, Vilkins, Samantha |
 | License | Not specified |
 | Availability | Availability not checked |
 

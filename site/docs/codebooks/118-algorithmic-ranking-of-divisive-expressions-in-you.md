@@ -11,7 +11,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/tep3q/) |
 | Year | 2024 |
-| Authors | Unknown |
+| Authors | Linnert, Ellen |
 | License | Not specified |
 | Availability | Availability not checked |
 

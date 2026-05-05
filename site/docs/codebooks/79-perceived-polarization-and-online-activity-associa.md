@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/9u3hy/) |
 | Year | 2020 |
-| Authors | Unknown |
+| Authors | Pour, Marek, Serek, Jan |
 | License | Not specified |
 | Availability | Availability not checked |
 

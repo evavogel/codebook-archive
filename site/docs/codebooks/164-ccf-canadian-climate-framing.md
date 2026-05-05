@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/q5w47/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Lemor, Antoine C, Taylor, Matthew, Pillod, Alizée |
 | License | Not specified |
 | Availability | Availability not checked |
 

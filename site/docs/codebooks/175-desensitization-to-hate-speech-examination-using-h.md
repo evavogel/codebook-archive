@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/9speq/) |
 | Year | 2023 |
-| Authors | Unknown |
+| Authors | Soral, Wiktor, Świderska, Aleksandra, Puchała, Dominik, Bilewicz, Michał |
 | License | Not specified |
 | Availability | Availability not checked |
 

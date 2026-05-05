@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/uckmn/) |
 | Year | 2023 |
-| Authors | Unknown |
+| Authors | Henn, Halina |
 | License | Not specified |
 | Availability | Availability not checked |
 

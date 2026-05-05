@@ -10,7 +10,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/h4q7z/) |
 | Year | 2026 |
-| Authors | Unknown |
+| Authors | Yuskiv, Bohdan |
 | License | Not specified |
 | Availability | Availability not checked |
 

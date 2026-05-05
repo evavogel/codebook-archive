@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/us7kg/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Paulissen, Toine |
 | License | Not specified |
 | Availability | Availability not checked |
 

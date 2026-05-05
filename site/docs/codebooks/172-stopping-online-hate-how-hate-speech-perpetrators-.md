@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/hrqpy/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Jia, Yue, hansen, kirstine, Garrido Marques, Tiago, Schumann, Sandy, Wei, Zirou |
 | License | Not specified |
 | Availability | Availability not checked |
 

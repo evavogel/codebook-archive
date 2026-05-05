@@ -10,7 +10,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/jxsva/) |
 | Year | 2022 |
-| Authors | Unknown |
+| Authors | Rottweiler, Bettina, Schumann, Sandy, Clemmow, Caitlin |
 | License | Not specified |
 | Availability | Availability not checked |
 

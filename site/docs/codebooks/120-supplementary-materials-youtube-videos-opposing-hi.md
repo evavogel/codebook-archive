@@ -13,7 +13,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/n7bhq/) |
 | Year | 2017 |
-| Authors | Unknown |
+| Authors | Voelkel, Jan G, Feinberg, Matthew |
 | License | Not specified |
 | Availability | Availability not checked |
 

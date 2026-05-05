@@ -11,7 +11,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/2kngy/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Zulianello, Mattia |
 | License | Not specified |
 | Availability | Availability not checked |
 

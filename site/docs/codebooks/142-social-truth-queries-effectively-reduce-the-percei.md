@@ -10,7 +10,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/vurw9/) |
 | Year | 2026 |
-| Authors | Unknown |
+| Authors | Udry, Jessica, Barber, Sarah J |
 | License | Not specified |
 | Availability | Availability not checked |
 

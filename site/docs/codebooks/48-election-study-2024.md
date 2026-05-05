@@ -11,7 +11,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/7w9dc/) |
 | Year | 2024 |
-| Authors | Unknown |
+| Authors | Rothmund, Tobias, Walther, Eva, Finn, Christine, Grosche, Carla, Ziemer, Carolin-Theresa, Bojarskich, Vladimir, Lambrich, Anna, Agostini, Philipp, Vesper, Denise, Buhl, Sarah, Bertlich, Tisa, Bast, Jennifer, Luebke, Simon M, Heyna, Philipp, Schuck, Jakob, Gelfort, Pascal, Lindner, Clemens, Straßburger, Vera M |
 | License | Not specified |
 | Availability | Availability not checked |
 

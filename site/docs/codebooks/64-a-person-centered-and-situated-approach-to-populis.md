@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/hxfbs/) |
 | Year | 2023 |
-| Authors | Unknown |
+| Authors | Mijatović, Nevena |
 | License | Not specified |
 | Availability | Availability not checked |
 

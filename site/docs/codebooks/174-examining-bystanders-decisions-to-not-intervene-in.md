@@ -10,7 +10,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/fk5md/) |
 | Year | 2023 |
-| Authors | Unknown |
+| Authors | Schumann, Sandy |
 | License | Not specified |
 | Availability | Availability not checked |
 

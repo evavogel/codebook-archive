@@ -10,7 +10,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/h625r/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Kotz, Johannes, Giese, Helge, Breunig, Christian, Sterba, Maj-Britt, Brack, Nathalie, Dumont, Patrick, Taflaga, Marija, Olivera, Javier, Sheffer, Lior, Werner, Annika, Kuraishi, Anam, Gaissmaier, Wolfgang |
 | License | Not specified |
 | Availability | Availability not checked |
 

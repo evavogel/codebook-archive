@@ -11,7 +11,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/yhe6n/) |
 | Year | 2022 |
-| Authors | Unknown |
+| Authors | Dreston, Jana H, Neubaum, German |
 | License | Not specified |
 | Availability | Availability not checked |
 

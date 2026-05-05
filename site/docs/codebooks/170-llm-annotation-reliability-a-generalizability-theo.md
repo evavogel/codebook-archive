@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/k9caj/) |
 | Year | 2026 |
-| Authors | Unknown |
+| Authors | Liu, Jin |
 | License | Not specified |
 | Availability | Availability not checked |
 

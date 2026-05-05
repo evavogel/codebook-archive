@@ -12,7 +12,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/mekwg/) |
 | Year | 2023 |
-| Authors | Unknown |
+| Authors | Nai, Alessandro |
 | License | Not specified |
 | Availability | Availability not checked |
 

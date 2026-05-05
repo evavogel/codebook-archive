@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/bfjk2/) |
 | Year | 2023 |
-| Authors | Unknown |
+| Authors | van Prooijen, Jan-Willem, Nachtwey, Paul, Li, Y., Mo, Y., Kipperman, Paulette J B |
 | License | Not specified |
 | Availability | Availability not checked |
 

@@ -11,7 +11,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/tj5pk/) |
 | Year | 2024 |
-| Authors | Unknown |
+| Authors | Pabian, Sara |
 | License | Not specified |
 | Availability | Availability not checked |
 

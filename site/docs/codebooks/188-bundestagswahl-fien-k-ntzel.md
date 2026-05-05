@@ -10,7 +10,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/dmqkv/) |
 | Year | 2020 |
-| Authors | Unknown |
+| Authors | Lang, Anna, Fien, Leandra, Küntzel, Benjamin |
 | License | Not specified |
 | Availability | Availability not checked |
 

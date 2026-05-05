@@ -10,7 +10,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/t3vx2/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Höppner, Martin |
 | License | Not specified |
 | Availability | Availability not checked |
 

@@ -10,7 +10,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/f73nh/) |
 | Year | 2026 |
-| Authors | Unknown |
+| Authors | Chrysikakis, Elias |
 | License | Not specified |
 | Availability | Availability not checked |
 

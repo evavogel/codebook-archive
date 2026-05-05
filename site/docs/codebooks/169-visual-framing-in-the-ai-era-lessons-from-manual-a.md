@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/r9tjm/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Lokmanoglu, Ayse D, El Damanhoury, Kareem, Winkler, Carol, Glanz, Keyu A C |
 | License | Not specified |
 | Availability | Availability not checked |
 

@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/skprt/) |
 | Year | 2024 |
-| Authors | Unknown |
+| Authors | Marwick, Alice, McGregor, Shannon, Freelon, Deen |
 | License | Not specified |
 | Availability | Availability not checked |
 

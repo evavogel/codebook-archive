@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/bkv2p/) |
 | Year | 2024 |
-| Authors | Unknown |
+| Authors | Mehl, Stephanie, Pytlik, Nico, Soll, Daniel, Rief, Winfried |
 | License | Not specified |
 | Availability | Availability not checked |
 

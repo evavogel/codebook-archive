@@ -10,7 +10,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/a2r5s/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Lorko, Matej, Cavojova, Vladimira, Šrol, Jakub |
 | License | Not specified |
 | Availability | Availability not checked |
 

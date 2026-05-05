@@ -11,7 +11,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/da8tw/) |
 | Year | 2020 |
-| Authors | Unknown |
+| Authors | Döring, Nicola M, Mohseni, M. R |
 | License | Not specified |
 | Availability | Availability not checked |
 

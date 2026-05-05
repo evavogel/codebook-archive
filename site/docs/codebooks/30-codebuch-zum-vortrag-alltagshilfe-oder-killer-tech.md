@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/dg8n2/) |
 | Year | 2023 |
-| Authors | Unknown |
+| Authors | Zai, Florin, Hänggli, Regula |
 | License | Not specified |
 | Availability | **Files available** |
 

@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/ea92u/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Neerdaels, Jasper, Teymoori, Ali |
 | License | Not specified |
 | Availability | Availability not checked |
 

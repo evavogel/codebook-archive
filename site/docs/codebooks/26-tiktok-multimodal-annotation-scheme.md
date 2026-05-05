@@ -10,7 +10,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/6u2r9/) |
 | Year | 2026 |
-| Authors | Unknown |
+| Authors | Grzenkowicz, Maciej |
 | License | Not specified |
 | Availability | Availability not checked |
 

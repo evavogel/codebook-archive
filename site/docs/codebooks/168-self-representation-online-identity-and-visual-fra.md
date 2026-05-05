@@ -13,7 +13,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/y6unj/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Sanz-Aznar, Javier |
 | License | Not specified |
 | Availability | Availability not checked |
 

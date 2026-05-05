@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/xycns/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Marczyński, Piotr, Brack, Nathalie |
 | License | Not specified |
 | Availability | Availability not checked |
 

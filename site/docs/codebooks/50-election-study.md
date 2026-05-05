@@ -10,7 +10,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/upr8j/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | DiGiovanni, Ana M |
 | License | Not specified |
 | Availability | Availability not checked |
 

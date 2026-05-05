@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/9ks2n/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Takizawa, Ruri, Marx-Fleck, Stefanie, Gerlach, Alina, Grote, Gudela |
 | License | Not specified |
 | Availability | Availability not checked |
 

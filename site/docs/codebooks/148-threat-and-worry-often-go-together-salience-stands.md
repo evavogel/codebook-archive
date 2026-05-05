@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/h9fkv/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Bomm, Linda C, Bergmann, Paul K, Bakker, Bert N |
 | License | Not specified |
 | Availability | Availability not checked |
 

@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/3ms9d/) |
 | Year | 2023 |
-| Authors | Unknown |
+| Authors | de Melo, Alan C, Loureiro, Rennan P, Mélo, Isabela d C |
 | License | Not specified |
 | Availability | Availability not checked |
 

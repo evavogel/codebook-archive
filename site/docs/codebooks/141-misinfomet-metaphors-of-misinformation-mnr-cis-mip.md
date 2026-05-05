@@ -10,7 +10,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/7fngr/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Fitzek, Sebastian, Bârgaoanu, Alina, Negrea-Busuioc, Elena |
 | License | Not specified |
 | Availability | Availability not checked |
 

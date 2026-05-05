@@ -11,7 +11,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/nrvcj/) |
 | Year | 2024 |
-| Authors | Unknown |
+| Authors | Emanuele, Vincenzo, Marino, Bruno |
 | License | Not specified |
 | Availability | Availability not checked |
 

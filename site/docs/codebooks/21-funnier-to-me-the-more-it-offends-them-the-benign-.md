@@ -11,7 +11,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/26q7k/) |
 | Year | 2024 |
-| Authors | Unknown |
+| Authors | Koszałkowska, Karolina, Ford, Thomas E, Han, Hyemin, Olah, Andrew R, Rice, William |
 | License | Not specified |
 | Availability | **Files available** |
 

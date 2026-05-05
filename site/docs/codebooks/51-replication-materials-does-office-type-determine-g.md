@@ -11,7 +11,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/5r2yp/) |
 | Year | 2026 |
-| Authors | Unknown |
+| Authors | Lim, Tae Hyun |
 | License | Not specified |
 | Availability | Availability not checked |
 

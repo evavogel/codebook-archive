@@ -12,7 +12,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/46z8n/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Weikinn, Emil L A |
 | License | Not specified |
 | Availability | Availability not checked |
 

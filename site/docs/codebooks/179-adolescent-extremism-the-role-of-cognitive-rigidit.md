@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/74hfu/) |
 | Year | 2024 |
-| Authors | Unknown |
+| Authors | Knorr, Anna |
 | License | Not specified |
 | Availability | Availability not checked |
 

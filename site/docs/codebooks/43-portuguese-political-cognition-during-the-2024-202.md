@@ -10,7 +10,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/9vke4/) |
 | Year | 2026 |
-| Authors | Unknown |
+| Authors | Seruti, Amanda, Ferreira, Mário B, Garrido, Margarida V, Saraiva, Magda |
 | License | Not specified |
 | Availability | Availability not checked |
 

@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/3vrbn/) |
 | Year | 2023 |
-| Authors | Unknown |
+| Authors | Losee, Joy E, HIGGINBOTHAM, GERALD, Pogge, Gabrielle, Kerner, Liz, Shepperd, James A |
 | License | Not specified |
 | Availability | Availability not checked |
 

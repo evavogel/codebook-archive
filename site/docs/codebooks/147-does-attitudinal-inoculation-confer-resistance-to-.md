@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/59cwa/) |
 | Year | 2024 |
-| Authors | Unknown |
+| Authors | Schumann, Sandy |
 | License | Not specified |
 | Availability | Availability not checked |
 

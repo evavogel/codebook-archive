@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/tr9yj/) |
 | Year | 2026 |
-| Authors | Unknown |
+| Authors | Altay, Sacha |
 | License | Not specified |
 | Availability | Availability not checked |
 

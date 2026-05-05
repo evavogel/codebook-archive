@@ -12,6 +12,7 @@ from rich.table import Table
 from .classify import run_classifier
 from .config import Keywords, Settings
 from .db import connect
+from .enrich import enrich_authors
 from .export import export_candidates
 from .site_builder import build as build_site_docs
 from .sources import REGISTRY
@@ -83,6 +84,16 @@ def classify(
             check_files=not no_file_check,
             dry_run=dry_run,
         )
+    console.print(counts)
+
+
+@app.command()
+def enrich(
+    verbose: bool = typer.Option(False, "--verbose", "-v"),
+) -> None:
+    """Fetch missing author data for OSF candidates from the OSF citation API."""
+    _setup_logging(verbose)
+    counts = enrich_authors()
     console.print(counts)
 
 

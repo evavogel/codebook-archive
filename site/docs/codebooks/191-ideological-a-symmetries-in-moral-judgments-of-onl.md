@@ -11,7 +11,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/j7ewg/) |
 | Year | 2023 |
-| Authors | Unknown |
+| Authors | Bojarskich, Vladimir, Yucel, Meltem, Hahn, Lindsay, Rothmund, Tobias |
 | License | Not specified |
 | Availability | Availability not checked |
 

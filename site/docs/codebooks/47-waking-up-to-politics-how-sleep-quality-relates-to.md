@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/sg3a7/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Erol, Fatih, Micatka, Nathan K, Ksiazkiewicz, Aleksander |
 | License | Not specified |
 | Availability | Availability not checked |
 

@@ -10,7 +10,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/ym4wq/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Shin, Hwayong |
 | License | Not specified |
 | Availability | Availability not checked |
 

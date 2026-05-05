@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/2gkfw/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Phillips, Samantha C |
 | License | Not specified |
 | Availability | Availability not checked |
 

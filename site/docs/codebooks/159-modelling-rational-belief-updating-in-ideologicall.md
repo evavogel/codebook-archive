@@ -11,7 +11,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/uhwzy/) |
 | Year | 2024 |
-| Authors | Unknown |
+| Authors | Sanna, Greta A, Lagnado, David, Pilditch, Toby |
 | License | Not specified |
 | Availability | Availability not checked |
 

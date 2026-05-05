@@ -11,7 +11,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/n6jqp/) |
 | Year | 2024 |
-| Authors | Unknown |
+| Authors | Harff, Darian |
 | License | Not specified |
 | Availability | Availability not checked |
 

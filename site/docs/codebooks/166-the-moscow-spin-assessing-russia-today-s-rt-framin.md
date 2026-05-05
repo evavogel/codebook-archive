@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/2nbst/) |
 | Year | 2023 |
-| Authors | Unknown |
+| Authors | Massignan, Virginia, El Damanhoury, Kareem, Winkler, Carol |
 | License | Not specified |
 | Availability | Availability not checked |
 

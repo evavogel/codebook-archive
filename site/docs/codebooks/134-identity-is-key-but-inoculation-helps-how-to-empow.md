@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/e7sqb/) |
 | Year | 2024 |
-| Authors | Unknown |
+| Authors | Ziemer, Carolin-Theresa, Schmid, Philipp, Betsch, Cornelia, Rothmund, Tobias |
 | License | Not specified |
 | Availability | Availability not checked |
 

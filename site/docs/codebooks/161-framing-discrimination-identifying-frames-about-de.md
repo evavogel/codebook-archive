@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/pg6fb/) |
 | Year | 2024 |
-| Authors | Unknown |
+| Authors | Steeman, Lise-Lore |
 | License | Not specified |
 | Availability | Availability not checked |
 

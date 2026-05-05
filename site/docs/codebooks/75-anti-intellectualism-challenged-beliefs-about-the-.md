@@ -11,7 +11,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/yevwt/) |
 | Year | 2024 |
-| Authors | Unknown |
+| Authors | Altgilbers Roweton, Marie, Eidelman, Scott |
 | License | Not specified |
 | Availability | Availability not checked |
 

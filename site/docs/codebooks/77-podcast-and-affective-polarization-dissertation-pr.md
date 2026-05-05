@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/v5yft/) |
 | Year | 2023 |
-| Authors | Unknown |
+| Authors | Hartvigsen, Luke D, Ridge, Robert D |
 | License | Not specified |
 | Availability | Availability not checked |
 

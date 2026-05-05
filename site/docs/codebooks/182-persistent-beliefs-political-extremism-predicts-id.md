@@ -10,7 +10,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/h3vgw/) |
 | Year | 2020 |
-| Authors | Unknown |
+| Authors | Zwicker, Maria V, van Prooijen, Jan-Willem, Krouwel, André |
 | License | Not specified |
 | Availability | Availability not checked |
 

@@ -10,7 +10,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/bgy8p/) |
 | Year | 2024 |
-| Authors | Unknown |
+| Authors | Gugushvili, Nino, Masciantonio, Alexandra |
 | License | Not specified |
 | Availability | Availability not checked |
 

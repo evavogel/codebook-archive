@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/9e7gz/) |
 | Year | 2024 |
-| Authors | Unknown |
+| Authors | Loughnan, Dan, van Stekelenburg, Aart, Kleemans, Mariska, Pouwels, J. Loes, Fransen, Marieke |
 | License | Not specified |
 | Availability | Availability not checked |
 

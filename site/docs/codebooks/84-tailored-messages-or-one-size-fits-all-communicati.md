@@ -10,7 +10,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/jn8kz/) |
 | Year | 2024 |
-| Authors | Unknown |
+| Authors | Jungblut, Marc |
 | License | Not specified |
 | Availability | Availability not checked |
 

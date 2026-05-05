@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/29hjs/) |
 | Year | 2023 |
-| Authors | Unknown |
+| Authors | Xu, Yi |
 | License | Not specified |
 | Availability | Availability not checked |
 

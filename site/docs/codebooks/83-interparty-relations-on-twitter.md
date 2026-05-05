@@ -11,7 +11,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/7acm6/) |
 | Year | 2022 |
-| Authors | Unknown |
+| Authors | Heltzel, Gordon, Laurin, Kristin |
 | License | Not specified |
 | Availability | Availability not checked |
 

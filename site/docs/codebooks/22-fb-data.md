@@ -12,7 +12,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/dmvbh/) |
 | Year | 2021 |
-| Authors | Unknown |
+| Authors | Moran, Rachel E, Nguyễn, Sarah |
 | License | Not specified |
 | Availability | **Files available** |
 

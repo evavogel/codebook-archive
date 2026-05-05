@@ -11,7 +11,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/vjf6e/) |
 | Year | 2023 |
-| Authors | Unknown |
+| Authors | Jost, Pablo, Dogruel, Leyla |
 | License | Not specified |
 | Availability | Availability not checked |
 

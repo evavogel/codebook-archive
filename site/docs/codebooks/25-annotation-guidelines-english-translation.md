@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/eam8c/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Temnikova, Irina |
 | License | Not specified |
 | Availability | **Files available** |
 

@@ -11,7 +11,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/s94fz/) |
 | Year | 2021 |
-| Authors | Unknown |
+| Authors | Catena-Fernández, Cristian, Fernández, Saulo |
 | License | Not specified |
 | Availability | Availability not checked |
 

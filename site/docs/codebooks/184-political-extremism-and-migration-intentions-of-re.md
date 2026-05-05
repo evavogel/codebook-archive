@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/86tbg/) |
 | Year | 2019 |
-| Authors | Unknown |
+| Authors | Jasko, Katarzyna |
 | License | Not specified |
 | Availability | Availability not checked |
 

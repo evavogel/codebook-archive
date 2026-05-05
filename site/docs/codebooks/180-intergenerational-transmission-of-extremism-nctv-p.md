@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/84aje/) |
 | Year | 2022 |
-| Authors | Unknown |
+| Authors | van Wieringen, Layla, Liem, Marieke, Weggemans, Daan |
 | License | Not specified |
 | Availability | Availability not checked |
 

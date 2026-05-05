@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/wx65y/) |
 | Year | 2023 |
-| Authors | Unknown |
+| Authors | Rains, Stephen A |
 | License | Not specified |
 | Availability | Availability not checked |
 

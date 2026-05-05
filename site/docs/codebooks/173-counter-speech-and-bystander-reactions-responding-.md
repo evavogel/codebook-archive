@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/xqmnk/) |
 | Year | 2023 |
-| Authors | Unknown |
+| Authors | Jia, Yue, Schumann, Sandy |
 | License | Not specified |
 | Availability | Availability not checked |
 

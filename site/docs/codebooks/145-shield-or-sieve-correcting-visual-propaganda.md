@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/u83xj/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Mattis, Nicolas M, Weikmann, Teresa E, de Vreese, Claes |
 | License | Not specified |
 | Availability | Availability not checked |
 

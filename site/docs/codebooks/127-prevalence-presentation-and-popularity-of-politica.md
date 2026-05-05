@@ -11,7 +11,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/q3k2d/) |
 | Year | 2023 |
-| Authors | Unknown |
+| Authors | Harff, Darian, Schmuck, Desiree |
 | License | Not specified |
 | Availability | Availability not checked |
 

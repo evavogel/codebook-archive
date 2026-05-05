@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/2wjnb/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Manunta, Efisio |
 | License | Not specified |
 | Availability | Availability not checked |
 

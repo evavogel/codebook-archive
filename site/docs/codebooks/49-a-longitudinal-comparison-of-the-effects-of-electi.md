@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/3udca/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Valdes, Evan A, Searle, Rosalind, Liu, James H, Sindermann, Cornelia |
 | License | Not specified |
 | Availability | Availability not checked |
 

@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/yxchn/) |
 | Year | 2023 |
-| Authors | Unknown |
+| Authors | Prike, Toby, Walker, Bradley, Ecker, Ullrich K H, Fay, Nicolas, Perfors, Andrew, Kashima, Yoshihisa |
 | License | Not specified |
 | Availability | Availability not checked |
 

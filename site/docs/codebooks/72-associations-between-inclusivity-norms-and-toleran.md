@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/pb3ar/) |
 | Year | 2023 |
-| Authors | Unknown |
+| Authors | Schäfer, Laura F, Tausch, Nicole, Christ, Oliver, Schäfer, Sarina J, Ullenboom, Jil, van Zalk, Maarten, Shani, Maor, Middendorf, Wilma M, Lubbers, Miranda J, Ciordia, Alejandro, Jaspers, Eva, Simons, Jan-Willem, Bukowski, Marcin, Estevan-Reina, Lucía, Potoczek, Anna, Gurbisz, Dominika, de Lemus, Soledad, Graf, Sylvie, Jasinskaja-Lahti, Inga, Lavest, Chloé, Petkanopoulou, Katerina, Kende, Anna, Prati, Francesca, Hjerm, Mikael |
 | License | Not specified |
 | Availability | Availability not checked |
 

@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/pt794/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Abad Borger, Katharina, Walther, Eva, Bosnjak, Michael |
 | License | Not specified |
 | Availability | Availability not checked |
 

@@ -11,7 +11,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/57b2k/) |
 | Year | 2026 |
-| Authors | Unknown |
+| Authors | Erdogan, Emre |
 | License | Not specified |
 | Availability | Availability not checked |
 

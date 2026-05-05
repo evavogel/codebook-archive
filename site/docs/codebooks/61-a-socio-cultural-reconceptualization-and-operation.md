@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/eauh7/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Mijatović, Nevena |
 | License | Not specified |
 | Availability | Availability not checked |
 

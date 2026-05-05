@@ -10,7 +10,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/kbf82/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Anter, Luise, Kümpel, Anna S |
 | License | Not specified |
 | Availability | Availability not checked |
 

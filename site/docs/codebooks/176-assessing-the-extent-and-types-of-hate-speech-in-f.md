@@ -11,7 +11,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/yfxzw/) |
 | Year | 2020 |
-| Authors | Unknown |
+| Authors | Rieger, Diana, Kümpel, Anna S, Wich, Max, Groh, Georg, Kiening, Toni |
 | License | Not specified |
 | Availability | Availability not checked |
 

@@ -10,7 +10,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/7y932/) |
 | Year | 2023 |
-| Authors | Unknown |
+| Authors | Van Houtven, Ellen, Harff, Darian, Schmuck, Desiree |
 | License | Not specified |
 | Availability | Availability not checked |
 

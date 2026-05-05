@@ -10,7 +10,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/d475w/) |
 | Year | 2022 |
-| Authors | Unknown |
+| Authors | Kobilke, Lara, Kulichkina, Aytalina |
 | License | Not specified |
 | Availability | Availability not checked |
 

@@ -14,7 +14,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/ad734/) |
 | Year | 2017 |
-| Authors | Unknown |
+| Authors | Voelkel, Jan G, Feinberg, Matthew |
 | License | Not specified |
 | Availability | Availability not checked |
 

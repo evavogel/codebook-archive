@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/4ehxq/) |
 | Year | 2022 |
-| Authors | Unknown |
+| Authors | Moreno-Gata, Sofía |
 | License | Not specified |
 | Availability | Availability not checked |
 

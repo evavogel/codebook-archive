@@ -11,7 +11,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/f7bm4/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Rothut, Sophia, Schulze, Heidi, Rieger, Diana, Lechner, Maximilian, Naderer, Brigitte |
 | License | Not specified |
 | Availability | Availability not checked |
 

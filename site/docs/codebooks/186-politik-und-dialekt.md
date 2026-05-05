@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/72azd/) |
 | Year | 2016 |
-| Authors | Unknown |
+| Authors | Vögele, Catharina, Bachl, Marko |
 | License | Not specified |
 | Availability | Availability not checked |
 

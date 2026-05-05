@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/zfmd4/) |
 | Year | 2023 |
-| Authors | Unknown |
+| Authors | Bahamondes, Joaquín |
 | License | Not specified |
 | Availability | Availability not checked |
 

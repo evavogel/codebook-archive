@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/j2869/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Lorko, Matej, Cavojova, Vladimira, Brokesova, Zuzana |
 | License | Not specified |
 | Availability | Availability not checked |
 

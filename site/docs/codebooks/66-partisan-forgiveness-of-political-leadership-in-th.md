@@ -11,7 +11,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/ejryt/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Lalot, Fanny, Abrams, Dominic |
 | License | Not specified |
 | Availability | Availability not checked |
 

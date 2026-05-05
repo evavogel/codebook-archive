@@ -11,7 +11,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/ejqwp/) |
 | Year | 2024 |
-| Authors | Unknown |
+| Authors | Van Houtven, Ellen, Dekoninck, Heleen, Harff, Darian, Schmuck, Desiree |
 | License | Not specified |
 | Availability | Availability not checked |
 

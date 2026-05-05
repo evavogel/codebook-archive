@@ -10,7 +10,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/6shqe/) |
 | Year | 2024 |
-| Authors | Unknown |
+| Authors | Marwick, Alice, Furl, Katherine |
 | License | Not specified |
 | Availability | Availability not checked |
 

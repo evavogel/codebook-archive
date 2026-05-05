@@ -10,7 +10,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/6tu2x/) |
 | Year | 2025 |
-| Authors | Unknown |
+| Authors | Vranken, Sofie, Kankova, Jaroslava, Matthes, Jörg |
 | License | Not specified |
 | Availability | Availability not checked |
 

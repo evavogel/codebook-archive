@@ -12,7 +12,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/mhpfg/) |
 | Year | 2019 |
-| Authors | Unknown |
+| Authors | Nai, Alessandro |
 | License | Not specified |
 | Availability | Availability not checked |
 

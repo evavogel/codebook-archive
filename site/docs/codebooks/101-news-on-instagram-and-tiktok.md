@@ -9,7 +9,7 @@ tags:
 |---|---|
 | Source | [OSF](https://osf.io/gw6ah/) |
 | Year | 2024 |
-| Authors | Unknown |
+| Authors | Wirz, Dominique S, Zai, Florin |
 | License | Not specified |
 | Availability | Availability not checked |
 
