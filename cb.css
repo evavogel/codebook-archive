@@ -57,12 +57,20 @@
   width: 100%;
 }
 
-/* Right column lives in Material's right sidebar (injected by cb.js) */
+/* Right column: fixed at the right edge of the viewport */
 #cb-right-col {
-  display: none; /* hidden until JS moves it into the sidebar */
+  position: fixed;
+  top: 4rem;
+  right: 1rem;
+  width: 300px;
+  display: flex;
   flex-direction: column;
   gap: .85rem;
-  padding: .75rem .5rem;
+  z-index: 5;
+}
+
+@media (max-width: 900px) {
+  #cb-right-col { display: none; }
 }
 
 /* ── Filter bar ──────────────────────────────────────────────────────────── */
