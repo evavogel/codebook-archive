@@ -4,7 +4,7 @@ title: "Codebuch zur Studie «Eigeninteressen in der Berichterstattung über med
 # Codebuch zur Studie «Eigeninteressen in der Berichterstattung über medienpolitische Vorlagen und den Service public in der Schweiz»
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -22,9 +22,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 <p>Die Datei enth&auml;lt das Codebuch f&uuml;r die quanitative Inhaltsanalyse zur Studie &laquo;Eigeninteressen in der Berichterstattung &uuml;ber medienpolitische Vorlagen und den Service public in der Schweiz&raquo;.</p>
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > The title explicitly identifies this as a 'Codebuch' (codebook) for quantitative content analysis studying news coverage of media policy proposals and public broadcasting in Switzerland, directly qualifying as both a codebook and political communication research.
 

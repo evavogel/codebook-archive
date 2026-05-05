@@ -4,7 +4,7 @@ title: "Visual Framing in the AI Era: Lessons from Manual Approaches for Computa
 # Visual Framing in the AI Era: Lessons from Manual Approaches for Computational Methods
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly includes CODEBOOK.md and multiple coding-related files (Human_Codes, AI_Codes, intercoder results) documenting a systematic coding scheme for visual framing analysis, a core political communication concept.
 

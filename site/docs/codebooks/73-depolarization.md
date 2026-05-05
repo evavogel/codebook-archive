@@ -4,7 +4,7 @@ title: "Depolarization"
 # Depolarization
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -22,9 +22,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 In this research, we conduct a systematic literature review to identify recommendations for depolarizing public debates and assessing the evidence-base for each recommendation.
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly includes a codebook file (Codebook.pdf) and coding sheet for a systematic literature review on political polarization and depolarization strategies, directly relevant to political communication research.
 

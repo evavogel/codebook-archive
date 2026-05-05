@@ -4,7 +4,7 @@ title: "Misinfomet – Metaphors of Misinformation (MNR + CIS + MIP/MIPVU)"
 # Misinfomet – Metaphors of Misinformation (MNR + CIS + MIP/MIPVU)
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -22,9 +22,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 This project investigates how dominant metaphors for misinformation (e.g. “infodemic”, “information warfare”, “information pollution”) shape how the problem is conceptualised and which policy responses are prioritised at different system levels (micro, meso, macro). We conduct a Meta-Narrative Review (MNR) combined with Critical Interpretive Synthesis (CIS), complemented by a small MIP/MIPVU pilot on titles/abstracts and policy briefs. All protocols, extraction templates and pilot coding schemes will be shared openly on OSF once the preregistration is approved by the author team.
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly contains a codebook file (MIP_MIPVU_Codebook_OnePage_v1_2025-11-19.docx) and extraction templates for systematic analysis of misinformation metaphors and policy responses, directly addressing a core political communication concern.
 

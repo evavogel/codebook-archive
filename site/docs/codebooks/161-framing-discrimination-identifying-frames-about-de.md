@@ -4,7 +4,7 @@ title: "Framing discrimination: Identifying frames about dealing with discrimina
 # Framing discrimination: Identifying frames about dealing with discrimination in Belgian newspapers
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly contains a codebook file (Codebook framing discrimination.docx) for analyzing frames about discrimination in Belgian newspapers, which is directly relevant to political communication framing research and media discourse analysis.
 

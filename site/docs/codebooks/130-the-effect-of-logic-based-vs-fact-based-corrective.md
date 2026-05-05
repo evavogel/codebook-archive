@@ -4,7 +4,7 @@ title: "The effect of logic-based vs. fact-based corrective information on disin
 # The effect of logic-based vs. fact-based corrective information on disinformation discernment
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly includes a codebook file (SEC_Codebook.pdf) and addresses disinformation discernment, a core political communication research topic concerned with how people evaluate and respond to false political information.
 

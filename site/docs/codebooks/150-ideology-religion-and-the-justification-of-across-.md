@@ -4,7 +4,7 @@ title: "Ideology, Religion, and the Justification of Across Moral Violations and
 # Ideology, Religion, and the Justification of Across Moral Violations and Unfamiliar Issues: Evidence from Indonesia
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -22,9 +22,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 Indonesia is the most religious country with the largest Muslim population in the world. This makes religion the core of social life, from daily activities to political affairs. In their daily lives, Indonesians use religion as an index and standard of morality. This also makes the spectrum of ideologies as guidelines for life based on religion. However, at an extreme level, this characteristic of society is vulnerable and sensitive to differences. This study aims to analyze the ideological foundations, religion belief superiority, and perceptions of the importance of religion on tolerance and justification for moral violations and unfamiliar issues in Indonesian context. We conducted multiple linear regression and logistic regression on national survey data from the World Values Survey Wa
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project contains an explicit codebook file (WVS7_Codebook_Variables_report_V6.0.pdf) for World Values Survey data analyzing ideology, religion, and their role in political attitudes and moral reasoning in Indonesia, directly relevant to political communication research.
 

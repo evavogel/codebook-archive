@@ -4,7 +4,7 @@ title: "Truth-seeking vs. Balance: The Credibility Dilemma in Correcting Politic
 # Truth-seeking vs. Balance: The Credibility Dilemma in Correcting Political Misinformation
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly contains multiple codebook files (TvB_study1_codebook.pdf, TvB_study2_codebook.pdf, TvB_study2pilot_codebook.xlsx) alongside datasets and analysis scripts, with clear focus on coding political misinformation and fact-checking content.
 

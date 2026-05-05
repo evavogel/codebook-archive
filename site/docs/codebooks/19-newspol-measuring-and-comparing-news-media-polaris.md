@@ -4,7 +4,7 @@ title: "NewsPol: Measuring and Comparing News Media Polarisation"
 # NewsPol: Measuring and Comparing News Media Polarisation
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -22,9 +22,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 The News Polarisation stream addresses one of the major domains of polarisation that have been identified by the Australian Laureate Fellowship “Determining the Drivers and Dynamics of Partisanship and Polarisation in Online Public Debate”. The other major domains are Audience Polarisation and Discourse Polarisation.
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Explicit codebook file name and matched codebook terms confirm a coding document exists; polarization and partisanship are core political communication concepts directly relevant to measuring partisan media content.
 

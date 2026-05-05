@@ -4,7 +4,7 @@ title: "Perceived polarization and online activity associated with radical socia
 # Perceived polarization and online activity associated with radical social views
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > The project explicitly contains 'everyday_polarization_codebook.xlsx' and matches both codebook and polarization terms; polarization and radical views are core political communication research topics.
 

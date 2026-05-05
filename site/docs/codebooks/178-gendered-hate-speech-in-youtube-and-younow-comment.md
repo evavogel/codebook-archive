@@ -4,7 +4,7 @@ title: "Gendered hate speech in YouTube and YouNow comments: Results of two cont
 # Gendered hate speech in YouTube and YouNow comments: Results of two content analyses
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -33,9 +33,9 @@ and McMillan (2014). Study 1 investigated YouTube in the form of a content analy
 N = 8,000 publicly available video comments that were addressed towards four pai
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project contains two explicit codebooks (Table A1 and A2) for content analysis of gendered hate speech on video platforms, which is relevant to political communication research as hate speech with identity dimensions intersects with political polarization and online incivility.
 

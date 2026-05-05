@@ -4,7 +4,7 @@ title: "Tailored messages or one-size-fits-all communication? A comparative anal
 # Tailored messages or one-size-fits-all communication? A comparative analysis of U.S. public diplomacy on Twitter
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project contains two explicit codebook PDFs (Codebook_TopicModel.pdf, Codebook_Classifier.pdf) for coding U.S. public diplomacy tweets, which is directly relevant to political communication research on governmental messaging and diplomatic rhetoric.
 

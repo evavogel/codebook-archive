@@ -4,7 +4,7 @@ title: "Counter-speech and Bystander Reactions Responding to Hate Speech Online"
 # Counter-speech and Bystander Reactions Responding to Hate Speech Online
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly includes a codebook.pdf file and focuses on hate speech—a central political communication concern—examining how users respond to hateful online content, which is relevant to political polarization, incivility, and digital political discourse.
 

@@ -4,7 +4,7 @@ title: "Incivility in Online Discussion as a Collective Phenomenon: A Dynamic Sy
 # Incivility in Online Discussion as a Collective Phenomenon: A Dynamic Systems Perspective Examining Sequences of Uncivil Messages
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly contains 'Codebook OSF.pdf' file and matched codebook terms; incivility in online political discussion is a core political communication concept; title and file names confirm systematic annotation of uncivil message sequences.
 

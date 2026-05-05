@@ -4,7 +4,7 @@ title: "A Socio-Cultural Reconceptualization and Operationalization of Populist 
 # A Socio-Cultural Reconceptualization and Operationalization of Populist Attitudes: The United States Case Study
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project contains multiple CSES codebook files (parts 1-6) documenting variables and survey design for a study on populist attitudes in the U.S., directly matching both codebook and political communication criteria.
 

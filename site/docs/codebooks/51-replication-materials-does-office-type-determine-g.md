@@ -4,7 +4,7 @@ title: "Replication Materials: Does Office Type Determine Gendered Campaign Mess
 # Replication Materials: Does Office Type Determine Gendered Campaign Messages?
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -22,9 +22,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 This repository contains the data and code necessary to replicate all analyses reported in the article titled "Does Office Type Determine Gendered Campaign Messages? Evidence from South Korea" and its supplemental materials.
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Repository explicitly contains a codebook.md file and focuses on analyzing gendered campaign messages in South Korean elections, a core political communication research topic.
 

@@ -4,7 +4,7 @@ title: "Replication Materials for Risk Preferences in Political Campaigns: Effec
 # Replication Materials for Risk Preferences in Political Campaigns: Effects on Voter Approval
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -22,9 +22,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 Replication materials and codebook
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly mentions 'codebook' in description and file names, with clear political communication focus on voter approval and political campaigns.
 

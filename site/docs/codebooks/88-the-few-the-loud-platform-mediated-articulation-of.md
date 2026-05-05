@@ -4,7 +4,7 @@ title: "The Few, The Loud:   Platform-Mediated Articulation of Conspiratorial Di
 # The Few, The Loud:   Platform-Mediated Articulation of Conspiratorial Discourse by Political Elites on X and Facebook
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly contains 'codebook_table.docx' file and matched codebook terms; studies political elites' conspiratorial communication on social media platforms, directly relevant to political communication research on disinformation and political social media.
 

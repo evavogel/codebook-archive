@@ -4,7 +4,7 @@ title: "Adolescent Extremism: The Role of Cognitive Rigidity and Quest for Signi
 # Adolescent Extremism: The Role of Cognitive Rigidity and Quest for Significance
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project includes an explicit codebook file (IP-PAD Wave 1 Codebook - Poland Subset.pdf) for a longitudinal study on adolescent extremism, which is relevant to political communication research on radicalization and political attitudes formation in youth populations.
 

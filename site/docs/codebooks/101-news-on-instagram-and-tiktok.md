@@ -4,7 +4,7 @@ title: "News on Instagram and TikTok"
 # News on Instagram and TikTok
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project contains an explicit codebook file (Codebook_Insta_TikTok_20230222.pdf) with variable definitions for news content analysis on political social media platforms; social media news distribution is relevant to political communication research.
 

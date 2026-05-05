@@ -4,7 +4,7 @@ title: "Anti-Intellectualism, Challenged Beliefs About the 2020 Election, and At
 # Anti-Intellectualism, Challenged Beliefs About the 2020 Election, and Attitude Polarization
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly includes a codebook file (AIAS Study 5 Codebook.docx) with matched codebook terms, and focuses on election-related attitudes and polarization, which are core political communication research domains.
 

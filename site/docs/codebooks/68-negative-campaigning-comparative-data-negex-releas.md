@@ -4,7 +4,7 @@ title: "Negative Campaigning Comparative Data (NEGex), release 1.0"
 # Negative Campaigning Comparative Data (NEGex), release 1.0
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -24,9 +24,9 @@ Release 1.0 of the Negative Campaigning Comparative Expert Survey (NEGex).
 * Variables include the tone of the campaign (negative/positive), the type of attacks (policy/character), target and issue of attacks, the use of emotions (fear, enthusiasm), media coverage, the use of populist appeals (anti-elitism, people-centrism, ..) and the personality of selected candidates (Big Five and Dark Triad).
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > The project explicitly includes a codebook file (NEGex_1.0_codebook.pdf) and covers core political communication topics including negative campaigning, populism, campaign tone, attack types, and emotional appeals across 73 national elections.
 

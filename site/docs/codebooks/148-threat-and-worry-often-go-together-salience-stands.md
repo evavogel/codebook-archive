@@ -4,7 +4,7 @@ title: "Threat and Worry (Often) Go Together; Salience Stands Apart – Patterns
 # Threat and Worry (Often) Go Together; Salience Stands Apart – Patterns Across Descriptives, Correlations, and Ideological Associations
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -22,9 +22,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 We assess the validity of societal threat measures by investigating self-reported threat perception, worry, and issue salience of twelve societal issues.
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > The project contains a codebook file (Codebook_variables_TWS.docx) documenting measures of threat perception, worry, and salience across societal/political issues with ideological associations, which are relevant to political communication research on how citizens perceive and prioritize political threats and concerns.
 

@@ -4,7 +4,7 @@ title: "LLM Annotation Reliability: A Generalizability Theory Analysis of Hate S
 # LLM Annotation Reliability: A Generalizability Theory Analysis of Hate Speech, Mental Health, and Drug Review Tasks
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -22,9 +22,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 This OSF project provides the data, derived artifacts, and supplementary materials accompanying Liu (2026), Generalizability Theory for LLM-as-Evaluator Reliability: Univariate and Multivariate Variance Decomposition Across Models, Prompts, and Temperatures in Text Classification (Behavior Research Methods). The study applied univariate and multivariate generalizability theory (G-theory) to characterize the measurement properties of large language model (LLM) text annotations, evaluating four LLMs (gpt-4o-mini, gemini-2.5-flash, llama-3.3-70b, mistral-small-24b) under three prompt conditions (minimal, rubric, chain-of-thought) and six temperature settings (0.0–1.0) with three random-seed replications. The fully crossed design yielded 64,800 observations across 100-item entropy-stratified s
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project contains a codebook.md file for annotating hate speech, which is relevant to political communication research, though the project's primary focus is methodological (generalizability theory for LLM annotation reliability) rather than substantive political communication analysis.
 

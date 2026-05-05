@@ -4,7 +4,7 @@ title: "Radical Mobilization in Times of Crisis.  Use and Effects of Appeals and
 # Radical Mobilization in Times of Crisis.  Use and Effects of Appeals and Populist Communication Features  in Telegram Channels
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly contains an 'Appendix_codebook.pdf' file and focuses on coding populist communication features and radical mobilization appeals in Telegram channels, which is directly relevant to political communication research.
 

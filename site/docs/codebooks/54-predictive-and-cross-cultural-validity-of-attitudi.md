@@ -4,7 +4,7 @@ title: "Predictive and cross-cultural validity of attitudinal measures of populi
 # Predictive and cross-cultural validity of attitudinal measures of populism
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly contains a codebook.txt file and matched codebook terms, studies populism measurement across multiple countries, directly relevant to political communication research on populist attitudes and rhetoric.
 

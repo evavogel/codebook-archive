@@ -4,7 +4,7 @@ title: "Funnier to me the more it offends them: The Benign Violation Theory and 
 # Funnier to me the more it offends them: The Benign Violation Theory and disparagement humor targeting conservative versus liberal values
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > File name explicitly identifies as codebook (Study1_codebook_wide.xlsx), title indicates systematic coding of disparagement humor targeting political values (conservative/liberal), and matched terms confirm both codebook and political relevance.
 

@@ -4,7 +4,7 @@ title: "Prevalence, Presentation, and Popularity of Political Topics in Social M
 # Prevalence, Presentation, and Popularity of Political Topics in Social Media Influencers’ Content Across Two Countries
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > The project explicitly includes a codebook file (CODEBOOK_Influencers' Political Content Across Countries.docx) for coding political content in social media influencers' videos across two countries, directly addressing political communication research.
 

@@ -4,7 +4,7 @@ title: "Sammelband: Subjektive Sicherheit und politische Kultur"
 # Sammelband: Subjektive Sicherheit und politische Kultur
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly contains 'Codebook_SKiSAX_2022.pdf' among structured data files (questionnaire, variable list, datasets), and addresses political culture (politische Kultur) in relation to security perceptions, which relates to political attitudes and civic engagement.
 

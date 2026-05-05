@@ -4,7 +4,7 @@ title: "Fighting Violent Extremism with Narrative Intervention"
 # Fighting Violent Extremism with Narrative Intervention
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -22,9 +22,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 Evidence from a field experiment in West Africa
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project contains an explicit codebook file (Codebook for Burkina Endline .xlsx) for a field experiment on violent extremism intervention; while extremism research is broader than political communication proper, narrative intervention against violent extremism is relevant to political communication's concerns with persuasion, framing, and ideological messaging.
 

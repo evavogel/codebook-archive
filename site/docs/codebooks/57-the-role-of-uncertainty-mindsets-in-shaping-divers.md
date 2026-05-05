@@ -4,7 +4,7 @@ title: "The Role of Uncertainty Mindsets in Shaping Diversity Attitudes and Thei
 # The Role of Uncertainty Mindsets in Shaping Diversity Attitudes and Their Downstream Effects on Commitment to Societal Change and Right-Wing Populist Voting
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly contains a Codebook.docx file and focuses on right-wing populist voting behavior and diversity attitudes in a political context, directly relevant to populism research in political communication.
 

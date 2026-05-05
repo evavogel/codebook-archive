@@ -4,7 +4,7 @@ title: "FB Data"
 # FB Data
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -22,9 +22,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 Facebook posts related to misinformation events around the 2020 US Election
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > The filename explicitly contains 'Codebook.csv', matched terms confirm codebook status, and the description clearly addresses misinformation/disinformation around a major political election on social media—core political communication research topics.
 

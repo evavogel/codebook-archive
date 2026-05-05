@@ -4,7 +4,7 @@ title: "Codebuch zum Vortrag „Alltagshilfe oder Killer-Technologie? KI-Framing
 # Codebuch zum Vortrag „Alltagshilfe oder Killer-Technologie? KI-Framing in deutsch- und englischsprachigen Medien", PolKomm 2023, Düsseldorf
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > The title explicitly identifies this as a 'Codebuch' (codebook) presented at PolKomm 2023 (a political communication conference), focusing on AI framing in German and English-language media, which is directly relevant to political communication research on media framing.
 

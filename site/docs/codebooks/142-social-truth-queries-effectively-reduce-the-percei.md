@@ -4,7 +4,7 @@ title: "Social Truth Queries Effectively Reduce the Perceived Accuracy of Misinf
 # Social Truth Queries Effectively Reduce the Perceived Accuracy of Misinformation Across Age Groups and Social Contexts
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly contains a Codebook.docx file and addresses misinformation interventions across experimental conditions; misinformation/disinformation is a core political communication concept relevant to election integrity and online political discourse.
 

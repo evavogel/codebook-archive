@@ -4,7 +4,7 @@ title: "Do Experts Agree About Misinformation? Evidence from Three Annual Survey
 # Do Experts Agree About Misinformation? Evidence from Three Annual Surveys
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly contains a 'Codebook.md' file and focuses on expert classification of misinformation, a core political communication concept; misinformation detection and expert judgment are directly relevant to political content annotation and disinformation research.
 

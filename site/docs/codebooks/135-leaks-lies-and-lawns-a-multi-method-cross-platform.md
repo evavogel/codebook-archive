@@ -4,7 +4,7 @@ title: "Leaks, lies, and lawns: A multi-method, cross-platform study of politica
 # Leaks, lies, and lawns: A multi-method, cross-platform study of political disinformation narratives
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly contains a 'Qualitative Analysis Codebook.pdf' file and matches core political communication research terms (political disinformation narratives), making it a clear fit for both dimensions.
 

@@ -4,7 +4,7 @@ title: "Ideological (A-)Symmetries in Moral Judgments of Online Hate"
 # Ideological (A-)Symmetries in Moral Judgments of Online Hate
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly contains 'Codebook Moral Judgement of Hate Study.xlsx' file and focuses on ideological differences in moral judgments of online hate speech, directly relevant to political communication research on hate speech and polarization.
 

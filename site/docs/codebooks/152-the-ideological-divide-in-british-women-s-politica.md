@@ -4,7 +4,7 @@ title: "The Ideological Divide in British Women’s Political Leadership Aspirat
 # The Ideological Divide in British Women’s Political Leadership Aspirations
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly contains 'First_Codebook.xlsx' file and matched codebook terms; study focuses on ideological dimensions of political leadership aspirations among women, which is relevant to political communication research on political attitudes, partisanship, and leadership representation.
 

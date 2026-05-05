@@ -126,7 +126,7 @@ title: "{title.replace('"', "'")}"
     body = f"""# {title}
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -140,9 +140,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 {desc_block}
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > {reasoning}
 
@@ -178,6 +178,7 @@ def _build_index(rows: list[sqlite3.Row]) -> str:
             f'<button class="cb-tag" data-tag="{tag}">{tag} <span class="cb-count">({count})</span></button>'
         )
 
+    filter_html = "\n".join(filter_buttons)
     lines = [
         "---",
         "title: Codebook Archive",
@@ -185,27 +186,27 @@ def _build_index(rows: list[sqlite3.Row]) -> str:
         "",
         "# Political Communication Codebook Archive",
         "",
-        '<div class="cb-disclaimer">',
-        "<strong>About this archive</strong>",
-        "Entries are discovered automatically by keyword search on "
-        "<a href='https://osf.io'>OSF</a> and "
-        "<a href='https://zenodo.org'>Zenodo</a>. "
-        "Each entry is then pre-screened by <strong>Claude Haiku 4.5</strong> "
-        "(Anthropic's AI language model), which assesses whether the item is "
-        "likely a codebook or annotation scheme used in political communication "
-        "research. Classification results are not guaranteed to be correct — "
-        "an entry may appear here even if it does not contain a codebook suitable "
-        "for your research. Always check the linked source before citing. "
-        "The reasoning text on each entry page is AI-generated.",
-        "</div>",
-        "",
-        '<div id="cb-controls">',
+        '<div id="cb-top-row">',
+        '<div id="cb-left">',
         '<div id="cb-filter-row">',
         "<span>Filter by topic:</span>",
-        *filter_buttons,
+        filter_html,
         "</div>",
         '<input id="cb-search" type="text" placeholder="Search by title or author…" />',
         '<div id="cb-count-label"></div>',
+        "</div>",
+        '<aside class="cb-disclaimer">',
+        "<strong>About this archive</strong>"
+        "<p>Entries are discovered automatically by keyword search on "
+        "<a href='https://osf.io'>OSF</a> and "
+        "<a href='https://zenodo.org'>Zenodo</a>. "
+        "Each entry is then pre-screened by Claude Haiku 4.5 (Anthropic), "
+        "which assesses whether an item is likely a codebook or annotation scheme "
+        "used in political communication research. Classification results are not "
+        "guaranteed to be correct. An entry may appear here even if it does not "
+        "contain a codebook suitable for your research. Always check the linked "
+        "source to see which files are available.</p>",
+        "</aside>",
         "</div>",
         "",
         "| Title | Authors | Source | Year | Topics |",

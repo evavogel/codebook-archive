@@ -4,7 +4,7 @@ title: "Moral Perceptions about Environmentalism across Ideological Groups: Nega
 # Moral Perceptions about Environmentalism across Ideological Groups: Negative Moral Stereotypes Threaten Rightists’ Moral Self and Trigger Polarization
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project contains an explicit Codebook.docx file and demonstrates clear signals of political communication research through study of polarization and ideological group differences in moral perceptions, though the primary focus is environmental attitudes rather than core political messaging domains.
 

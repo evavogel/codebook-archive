@@ -4,7 +4,7 @@ title: "Supplementary Materials: YouTube Videos opposing Hillary Clinton"
 # Supplementary Materials: YouTube Videos opposing Hillary Clinton
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > File names explicitly reference 'Coding Instructions' documents paired with coding sheets for YouTube videos opposing Hillary Clinton, combined with analysis scripts and datasets, indicating a structured coding scheme for political campaign content analysis.
 

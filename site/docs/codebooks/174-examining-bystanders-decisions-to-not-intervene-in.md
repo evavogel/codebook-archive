@@ -4,7 +4,7 @@ title: "Examining Bystanders’ Decisions to Not Intervene in Incidents of Hate 
 # Examining Bystanders’ Decisions to Not Intervene in Incidents of Hate Speech Online and Offline
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project contains a Codebook.docx file and explicitly matches codebook and hate speech terms; hate speech with social/political dimensions is relevant to political communication research, though the focus on bystander psychology rather than content classification introduces minor uncertainty.
 

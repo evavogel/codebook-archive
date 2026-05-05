@@ -4,7 +4,7 @@ title: "Interparty relations on Twitter"
 # Interparty relations on Twitter
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly contains 'Codebook for Twitter project.docx' file and focuses on interparty relations (partisan dynamics) on Twitter, a core political communication research domain; multiple coding CSVs confirm manual annotation activity.
 

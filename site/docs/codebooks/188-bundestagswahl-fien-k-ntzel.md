@@ -4,7 +4,7 @@ title: "Bundestagswahl Fien/Küntzel"
 # Bundestagswahl Fien/Küntzel
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly contains a codebook file (Küntzel_Fien_Codebuch.pdf) related to German federal election (Bundestagswahl) data with political preference judgment variables, making it a clear political communication research codebook.
 

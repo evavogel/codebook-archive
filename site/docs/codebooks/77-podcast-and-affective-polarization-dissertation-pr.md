@@ -4,7 +4,7 @@ title: "Podcast and Affective Polarization Dissertation Project"
 # Podcast and Affective Polarization Dissertation Project
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly contains multiple codebooks (Study 1 Codebook.docx, Study 2 Codebook.docx) for analyzing podcast content in relation to affective polarization, a core political communication concept.
 

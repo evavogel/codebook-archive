@@ -4,7 +4,7 @@ title: "Entertainment and populism"
 # Entertainment and populism
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project contains multiple explicit codebook files ('Code book Study 1.docx', 'Code book Study 2a.docx', 'Code book Study 2b.docx', 'Code book Study 3.docx') paired with study materials and analysis scripts, covering populism which is a core political communication concept.
 

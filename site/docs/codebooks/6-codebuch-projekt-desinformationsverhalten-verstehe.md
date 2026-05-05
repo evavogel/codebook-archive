@@ -4,7 +4,7 @@ title: "Codebuch - Projekt 'Desinformationsverhalten Verstehen'"
 # Codebuch - Projekt "Desinformationsverhalten Verstehen"
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -23,9 +23,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 <p>Die qualitative Analyse basierte auf Daten, die im Rahmen zweier Erhebungsphasen &uuml;ber eine eigens entwickelte App gesammelt wurden. Teilnehmende konnten dar&uuml;ber regelm&auml;&szlig;ig Situationen, in denen
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Title and matched terms explicitly identify this as a codebook (Codebuch) focused on understanding disinformation dissemination mechanisms, which is a core political communication research concept, though the health information focus introduces some domain specificity.
 

@@ -4,7 +4,7 @@ title: "Examining the correspondence between political ideology and gun policy a
 # Examining the correspondence between political ideology and gun policy attitudes among Black and White people in the United States
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > The project explicitly lists 'Study 3 Recruitment Plan + Codebook.pdf' among file names, confirming a codebook exists; the focus on political ideology and gun policy attitudes is directly relevant to political communication research on political attitudes and policy opinion.
 

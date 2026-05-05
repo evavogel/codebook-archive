@@ -4,7 +4,7 @@ title: "TikTok's System of Curation and Individual and Collective Dynamics"
 # TikTok's System of Curation and Individual and Collective Dynamics
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project contains explicit codebook files (Study 1_Codebook.xlsx, Study 2_Codebook_T1.xlsx, Study 2_Codebook_T2.xlsx) documenting coding schemes for analyzing TikTok's curation system and its effects on polarization, a core political communication concern.
 

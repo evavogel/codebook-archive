@@ -4,7 +4,7 @@ title: "Desensitization to hate speech: Examination using heart rate measurement
 # Desensitization to hate speech: Examination using heart rate measurement
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly contains 'codebook_ab.docx' file and uses hate speech content stimuli, which is a politically-relevant communication concept; physiological measurement (heart rate) does not negate the codebook's core function in categorizing hate speech vs. neutral content.
 

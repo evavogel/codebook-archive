@@ -4,7 +4,7 @@ title: "Systematic Review and Evidence Gap Maps of Affective Polarization Resear
 # Systematic Review and Evidence Gap Maps of Affective Polarization Research
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > The project contains a codebook file (CAMA_Spreadsheet_and_Codebook.xlsx) for a systematic review of affective polarization research, a core political communication concept; the matched terms and file structure confirm this is a structured coding scheme for categorizing polarization literature.
 

@@ -4,7 +4,7 @@ title: "Election Study"
 # Election Study
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -24,9 +24,9 @@ This is the home page for a 4-week daily diary study (2 weeks before the electio
 Participants were recruited to participate in a 28-day (four-week) diary study about the US presidential election via online postings, in-person flyering, research participant databases, and word of mouth. Recruitment occurred between September 3rd and October 20th of 2024.  After removing diary entries due to data quality issues, we were left with a final sample size of 197 participants in the daily diary portion of the study who had responses to three or more nightly surveys. In the diary data, there are a total of 4,456 observations across all participants and days.
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly includes codebook files (Diary_Codebook_Election.xlsx, Baseline_Codebook_Election.xlsx) for a structured diary study of US presidential election behavior, directly relevant to political communication research.
 

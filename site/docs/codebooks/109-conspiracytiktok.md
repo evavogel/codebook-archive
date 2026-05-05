@@ -4,7 +4,7 @@ title: "ConspiracyTikTok"
 # ConspiracyTikTok
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -22,9 +22,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 Qualitative analysis of 202 ConspiracyTok videos (2022-2023)
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project contains explicit codebook files (TikTok Codebook.pdf, Conspiracy TikToks Codesheet) for systematic qualitative analysis of conspiracy content on a political social media platform, directly relevant to political communication research on misinformation and disinformation.
 

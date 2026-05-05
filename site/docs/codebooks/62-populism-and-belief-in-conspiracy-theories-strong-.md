@@ -4,7 +4,7 @@ title: "Populism and belief in conspiracy theories: strong anti-elitist attitude
 # Populism and belief in conspiracy theories: strong anti-elitist attitudes reduce the impact of analytical thinking on conspiracy beliefs
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -23,9 +23,9 @@ Online study by Stephanie Mehl, Winfried Rief, Daniel Soll and Nico Pytlik, part
 (part I is published at https://osf.io/er374/):
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly includes a codebook file ('Codebook for Dataset_Pytlik&Mehl_2020...') and focuses on populist attitudes and conspiracy beliefs, which are directly relevant to political communication research on populism and its relationship to misinformation.
 

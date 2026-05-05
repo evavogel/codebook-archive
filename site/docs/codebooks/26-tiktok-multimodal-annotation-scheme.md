@@ -4,7 +4,7 @@ title: "TikTok Multimodal Annotation Scheme"
 # TikTok Multimodal Annotation Scheme
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -22,9 +22,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 The multi-level, multimodal annotation scheme as presented in Grzenkowicz and Wildfeuer (2025). In this project, you can find the entire annotation scheme, the ELAN template file, instructions about how to use it, and some sample annotations.
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > The project explicitly contains an annotation scheme with ELAN template and instructions, and the sample annotations reference fact-checking organizations (PolitiFact, Africa Check, Demagog), strongly suggesting the scheme codes for misinformation/fact-checking content relevant to political communication, though the specific political dimensions are not fully explicit in metadata.
 

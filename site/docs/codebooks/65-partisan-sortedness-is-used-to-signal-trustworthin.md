@@ -4,7 +4,7 @@ title: "Partisan sortedness is used to signal trustworthiness"
 # Partisan sortedness is used to signal trustworthiness
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project contains 'variable_codebook.docx' and annotated datasets (descriptions_annotated.csv, phrases_annotated.csv) indicating a structured coding scheme for partisan content, directly relevant to partisanship and political communication research.
 

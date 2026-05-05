@@ -4,7 +4,7 @@ title: "Misinformation in Transmission Chains"
 # Misinformation in Transmission Chains
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > The project explicitly references a 'Coding Scheme' in the PDF filename and contains coder data files, indicating a structured manual coding framework for misinformation—a core political communication concern.
 

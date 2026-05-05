@@ -4,7 +4,7 @@ title: "Politische Kommunikation und Engagement auf Instagram:  Strategien währ
 # Politische Kommunikation und Engagement auf Instagram:  Strategien während der ostdeutschen Landtagswahlkämpfen 2024
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly contains 'Codebuch final.pdf' and multiple coded datasets (Codier_Datensatz.xlsx, reliability tests) documenting a systematic coding scheme for analyzing political communication strategies on Instagram during East German state elections (Sachsen, Thüringen, Brandenburg) in 2024.
 

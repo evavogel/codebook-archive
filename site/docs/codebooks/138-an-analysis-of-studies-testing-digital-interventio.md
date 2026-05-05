@@ -4,7 +4,7 @@ title: "An Analysis of Studies Testing Digital Interventions to Inoculate agains
 # An Analysis of Studies Testing Digital Interventions to Inoculate against Misinformation: A Systematic Review
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly contains a codebook file (DTIIMs_Review_Codebook.xlsx) for a systematic review of digital interventions against misinformation, which is a core political communication research domain.
 

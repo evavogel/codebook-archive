@@ -4,7 +4,7 @@ title: "Algorithmic Ranking of Divisive Expressions in YouTube User Comments"
 # Algorithmic Ranking of Divisive Expressions in YouTube User Comments
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > The project explicitly contains 'Coding Guidelines' documents for analyzing user comments on YouTube, focusing on divisive expressions—a key construct in political communication research on polarization and incivility.
 

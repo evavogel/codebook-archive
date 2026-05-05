@@ -4,7 +4,7 @@ title: "Waking up to politics: How sleep quality relates to political participat
 # Waking up to politics: How sleep quality relates to political participation
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly contains multiple codebook files (ESS11 codebook.html, anes_pilot_2024_userguidecodebook_20240319.pdf) alongside political datasets (election indices, turnout data), directly matching codebook term and political participation research scope.
 

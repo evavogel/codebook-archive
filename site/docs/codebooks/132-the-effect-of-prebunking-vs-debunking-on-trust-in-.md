@@ -4,7 +4,7 @@ title: "The effect of prebunking vs. debunking on trust in disinformation"
 # The effect of prebunking vs. debunking on trust in disinformation
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -22,9 +22,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 The current study aims to replicate our previous studies on the effect of fact-based prebunking and debunking on trust in disinformation. Our goal is to examine whether our results from the domain of Russo-Ukrainian war generalize to three other domains of contemporary controversy, namely politics, climate and health. In addition, we will more closely examine the efficacy of our intervention in relation to prior beliefs (i.e., subjective attitudes related to each of the three domains).
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly references 'Codebooks.pdf' in file listing and focuses on disinformation interventions across political and other domains, directly relevant to political communication research on misinformation.
 

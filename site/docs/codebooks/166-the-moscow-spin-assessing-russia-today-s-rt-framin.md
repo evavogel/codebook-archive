@@ -4,7 +4,7 @@ title: "The Moscow Spin: Assessing Russia Today’s (RT) Framing of Media System
 # The Moscow Spin: Assessing Russia Today’s (RT) Framing of Media Systems Across Languages
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -22,9 +22,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 Supplemental material for The Moscow Spin: Assessing Russia Today’s (RT) Framing of Media Systems Across Languages
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > The project explicitly includes a codebook file (Supplement C) for coding media system framing, and analyzes RT's political messaging about media systems across languages, directly relevant to political communication research on state media framing and propaganda.
 

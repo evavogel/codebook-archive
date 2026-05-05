@@ -4,7 +4,7 @@ title: "A person-centered and situated approach to populism in representative su
 # A person-centered and situated approach to populism in representative surveys
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -22,9 +22,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 Paper put up for a conference titled "Dismantling Democracy: Insecurity, emotions and authoritarian populism", which is the annual meeting of Internation Society for Political Psychology.
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project contains a codebook file (cses5_codebook_part2_variables.txt) for survey data on populism, a core political communication concept; conference context and matched terms confirm political-communication relevance, though this appears to be a research paper/analysis project rather than a primary codebook publication.
 

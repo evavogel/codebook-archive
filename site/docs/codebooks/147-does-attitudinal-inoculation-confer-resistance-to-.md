@@ -4,7 +4,7 @@ title: "Does Attitudinal Inoculation Confer Resistance to Violent Extremist Prop
 # Does Attitudinal Inoculation Confer Resistance to Violent Extremist Propaganda? Assessing Mechanisms, Long-term Effects, and the Advantage of Visuals
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > The project explicitly contains a 'Variable Code Book.docx' file and studies propaganda messaging related to violent extremism, which is directly relevant to political communication research on radicalization and persuasion.
 

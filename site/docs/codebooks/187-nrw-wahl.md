@@ -4,7 +4,7 @@ title: "NRW-Wahl"
 # NRW-Wahl
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -22,9 +22,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 Study on the role of social media and knowledge for political participation before the NRW election in 2022.
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly contains 'Codebook Items.xlsx' and 'Knowledge sub-categories.pdf' files, studies NRW 2022 election with focus on social media's role in political participation, directly matching political communication research domains.
 

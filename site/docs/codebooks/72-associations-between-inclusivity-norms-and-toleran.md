@@ -4,7 +4,7 @@ title: "Associations between inclusivity norms and tolerance, contact, and coope
 # Associations between inclusivity norms and tolerance, contact, and cooperation amid polarization
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -22,9 +22,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 Many European (and non-European) countries have become increasingly divided and polarised. This polarisation, broadly defined here as a process by which society is increasingly divided into groups with contrasting opinions, beliefs about social issues and conflictual behaviour, often leads to negative feelings (e.g. dislike or hatred) and avoidance. This project aims to investigate the potential of (perceptions of) social (inclusivity) norms that promote equality-based respect, dialogue and unity to increase tolerance, contact and cooperation between opposing groups, using cross-sectional survey data from different European countries.
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly contains 'Inclusivity Survey Codebook.pdf' and multiple survey instruments across languages; addresses political polarization, tolerance, and cooperation—core political communication constructs.
 

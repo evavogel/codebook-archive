@@ -4,7 +4,7 @@ title: "Distinct Patterns of Incidental Exposure to and Active Selection of Radi
 # Distinct Patterns of Incidental Exposure to and Active Selection of Radicalizing Information Indicate Varying Levels of Support for Violent Extremism
 
 <div class="cb-auto-notice">
-Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#classification">Classification</a> section below for details.
+Automatically discovered by keyword search and pre-screened by an AI classifier. See the <a href="#-classification">Classification</a> section below for details.
 </div>
 
 | Field | Value |
@@ -18,9 +18,9 @@ Automatically discovered by keyword search and pre-screened by an AI classifier.
 
 
 
-<div class="cb-classification">
+<div class="cb-classification" markdown="block">
 
-## Classification
+## 🤖 Classification
 
 > Project explicitly contains a 'code book.docx' file alongside survey materials and analysis scripts studying exposure to and selection of radicalizing information related to violent extremism, which is relevant to political communication research on extremism and political polarization.
 
