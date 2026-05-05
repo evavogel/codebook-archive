@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var table = document.getElementById("cb-table");
     if (!table) return;
 
-    var boxWidth = 380;
+    var boxWidth = 480;
     var rightMargin = 20;
     var gap = 32;
 
