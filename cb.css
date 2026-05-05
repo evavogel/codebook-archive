@@ -16,6 +16,37 @@
   --md-code-bg-color:    #f6f8fa;
 }
 
+/* ── Codebook index table ────────────────────────────────────────────────── */
+#cb-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .85rem;
+  margin-top: .75rem;
+}
+#cb-table th,
+#cb-table td {
+  padding: .45rem .6rem;
+  border-bottom: 1px solid #e1e4e8;
+  text-align: left;
+  vertical-align: top;
+}
+#cb-table th {
+  background: #f6f8fa;
+  font-weight: 600;
+  color: #24292e;
+  white-space: nowrap;
+}
+#cb-table tr:hover td {
+  background: #f1f8ff;
+}
+#cb-table a {
+  color: #0366d6;
+  text-decoration: none;
+}
+#cb-table a:hover {
+  text-decoration: underline;
+}
+
 /* ── Index layout: filter bar left, sidebar right ───────────────────────── */
 #cb-layout {
   display: flex;

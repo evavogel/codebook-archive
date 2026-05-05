@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var searchText = "";
 
   function getTable() {
-    return document.querySelector(".md-content table");
+    return document.getElementById("cb-table");
   }
 
   function applyFilters() {
