@@ -18,18 +18,25 @@
   --md-code-bg-color:   #f6f8fa;
 }
 
-/* ── Index header: filter bar full-width, disclaimer in right margin ─────── */
+/* ── Index header: filter bar full-width, right column in margin ─────────── */
 #cb-index-header {
   position: relative;
   margin-bottom: 1.2rem;
 }
 
-/* Disclaimer floats into the right margin without taking space from the table */
-.cb-disclaimer {
+/* Right column sits in the empty space to the right of the content area */
+#cb-right-col {
   position: absolute;
   left: calc(100% + 1.5rem);
   top: 0;
   width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: .9rem;
+}
+
+/* ── Disclaimer box ──────────────────────────────────────────────────────── */
+.cb-disclaimer {
   border: 1px solid #e1e4e8;
   border-left: 4px solid #0366d6;
   border-radius: 4px;
@@ -52,9 +59,61 @@
   margin: 0;
 }
 
-/* Hide on narrow viewports where there is no right-margin space */
+/* ── Contact box ─────────────────────────────────────────────────────────── */
+.cb-contact {
+  border: 1px solid #e1e4e8;
+  border-radius: 4px;
+  background: #f6f8fa;
+  padding: .9rem 1rem;
+  font-size: .78rem;
+  color: #444d56;
+  line-height: 1.6;
+}
+
+.cb-contact-header {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  margin-bottom: .65rem;
+}
+
+.cb-contact-header img {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 2px solid #e1e4e8;
+}
+
+.cb-contact-header strong {
+  display: block;
+  font-size: .82rem;
+  font-weight: 600;
+  color: #24292e;
+  margin-bottom: .1rem;
+}
+
+.cb-contact-header span {
+  font-size: .74rem;
+  color: #586069;
+}
+
+.cb-contact p {
+  margin: 0 0 .5rem;
+}
+
+.cb-contact p:last-child {
+  margin: 0;
+}
+
+.cb-contact a {
+  color: #0366d6;
+}
+
+/* Collapse to full-width on narrow viewports */
 @media (max-width: 1100px) {
-  .cb-disclaimer {
+  #cb-right-col {
     position: static;
     width: 100%;
     margin-bottom: 1rem;
