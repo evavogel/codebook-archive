@@ -169,7 +169,6 @@ def _build_index(rows: list[sqlite3.Row]) -> str:
             tag_counts[tag] = tag_counts.get(tag, 0) + 1
     sorted_tags = sorted(tag_counts.items(), key=lambda x: -x[1])
 
-    # Filter buttons HTML
     filter_buttons = [
         f'<button class="cb-tag active" data-tag="">All <span class="cb-count">({len(rows)})</span></button>'
     ]
@@ -177,8 +176,8 @@ def _build_index(rows: list[sqlite3.Row]) -> str:
         filter_buttons.append(
             f'<button class="cb-tag" data-tag="{tag}">{tag} <span class="cb-count">({count})</span></button>'
         )
-
     filter_html = "\n".join(filter_buttons)
+
     lines = [
         "---",
         "title: Codebook Archive",
@@ -186,7 +185,15 @@ def _build_index(rows: list[sqlite3.Row]) -> str:
         "",
         "# Political Communication Codebook Archive",
         "",
-        '<div id="cb-index-header">',
+        '<div id="cb-layout">',
+        '<div id="cb-main">',
+        '<div id="cb-filter-row">',
+        "<span>Filter by topic:</span>",
+        filter_html,
+        "</div>",
+        '<input id="cb-search" type="text" placeholder="Search by title or author…" />',
+        '<div id="cb-count-label"></div>',
+        "</div>",
         '<div id="cb-right-col">',
         '<aside class="cb-disclaimer">',
         "<strong>About this archive</strong>"
@@ -202,7 +209,12 @@ def _build_index(rows: list[sqlite3.Row]) -> str:
         "</aside>",
         '<div class="cb-contact">',
         '<div class="cb-contact-header">',
-        '<img src="https://emvogel.com/photo.jpg" alt="Eva Vogel" />',
+        '<div class="photo-flip">',
+        '<div class="photo-flip-inner">',
+        '<div class="photo-flip-front"><img src="https://emvogel.com/photo.jpg" alt="Eva Vogel" /></div>',
+        '<div class="photo-flip-back"><img src="https://emvogel.com/fun-photo.JPG" alt="Eva Vogel" /></div>',
+        "</div>",
+        "</div>",
         "<div><strong>Eva Vogel</strong>"
         "<span>University of Zurich</span></div>",
         "</div>",
@@ -210,15 +222,9 @@ def _build_index(rows: list[sqlite3.Row]) -> str:
         "I’d love to hear from you — whether you want to suggest "
         "a new topic area or share your own annotation scheme. "
         "This archive grows best with input from the community!</p>",
-        "<p>✉️ <a href='mailto:eva_vogel@web.de'>eva_vogel@web.de</a></p>",
+        "<p>✉️ <a href='mailto:eva-maria.vogel@uzh.ch'>eva-maria.vogel@uzh.ch</a></p>",
         "</div>",
         "</div>",
-        '<div id="cb-filter-row">',
-        "<span>Filter by topic:</span>",
-        filter_html,
-        "</div>",
-        '<input id="cb-search" type="text" placeholder="Search by title or author…" />',
-        '<div id="cb-count-label"></div>',
         "</div>",
         "",
         "| Title | Authors | Source | Year | Topics |",
@@ -232,7 +238,6 @@ def _build_index(rows: list[sqlite3.Row]) -> str:
         source_label = _source_badge(row["source"])
         year = row["year"] or "n.d."
         authors_str = (_flatten_json(row["authors"]) or "—").replace("|", "—")
-        # Truncate long author lists
         if len(authors_str) > 60:
             authors_str = authors_str[:57] + "…"
         tags = _concepts_to_tags(row["classifier_concepts"])
