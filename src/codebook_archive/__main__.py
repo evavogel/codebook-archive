@@ -13,6 +13,7 @@ from .classify import run_classifier
 from .config import Keywords, Settings
 from .db import connect
 from .export import export_candidates
+from .site_builder import build as build_site_docs
 from .sources import REGISTRY
 
 app = typer.Typer(help="Discover and curate political-communication codebooks.")
@@ -83,6 +84,18 @@ def classify(
             dry_run=dry_run,
         )
     console.print(counts)
+
+
+@app.command()
+def build_site(
+    all_candidates: bool = typer.Option(False, "--all", help="Include non-accepted entries too."),
+    verbose: bool = typer.Option(False, "--verbose", "-v"),
+) -> None:
+    """Generate MkDocs markdown pages from the curated candidates database."""
+    _setup_logging(verbose)
+    counts = build_site_docs(accepted_only=not all_candidates)
+    console.print(counts)
+    console.print("[green]Run[/green] [bold]python -m mkdocs serve[/bold] to preview locally.")
 
 
 @app.command()

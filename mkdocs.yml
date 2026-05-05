@@ -1,0 +1,65 @@
+site_name: Political Communication Codebook Archive
+site_url: https://codebooks.emvogel.com
+site_description: >
+  A curated archive of codebooks used in political communication research —
+  covering topics such as political content, populism, partisan rhetoric,
+  negative campaigning, disinformation, framing, and political social media.
+site_author: Eva Vogel
+
+repo_url: https://github.com/evavogel/codebook-archive
+repo_name: evavogel/codebook-archive
+
+docs_dir: site/docs
+site_dir: site/build
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.tooltips
+  font:
+    text: Source Sans 3
+    code: JetBrains Mono
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/evavogel/codebook-archive
+    - icon: fontawesome/solid/globe
+      link: https://emvogel.com
+
+copyright: >
+  CC-BY 4.0 &mdash; Eva Vogel, University of Zurich &mdash;
+  <a href="https://github.com/evavogel/codebook-archive">Source</a>
