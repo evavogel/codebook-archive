@@ -57,20 +57,29 @@
   width: 100%;
 }
 
-/* Right column: fixed at the right edge of the viewport */
+/* ── Right sidebar: widen it and kill the internal scroll ───────────────── */
+.md-sidebar--secondary {
+  width: 22rem;
+}
+.md-sidebar--secondary .md-sidebar__scrollwrap {
+  overflow-y: visible !important;
+  max-height: none !important;
+  height: auto !important;
+}
+.md-sidebar--secondary .md-sidebar__inner {
+  overflow: visible !important;
+  padding: 0 .5rem;
+}
+
+/* Right column — styled for when JS moves it into the sidebar */
 #cb-right-col {
-  position: fixed;
-  top: 4rem;
-  right: 1rem;
-  width: 300px;
-  display: flex;
+  display: none; /* shown once injected */
   flex-direction: column;
   gap: .85rem;
-  z-index: 5;
 }
 
 @media (max-width: 900px) {
-  #cb-right-col { display: none; }
+  #cb-right-col { display: none !important; }
 }
 
 /* ── Filter bar ──────────────────────────────────────────────────────────── */

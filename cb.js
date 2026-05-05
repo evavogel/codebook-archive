@@ -2,6 +2,17 @@ document.addEventListener("DOMContentLoaded", function () {
   var activeTag = "";
   var searchText = "";
 
+  // Inject right column into Material's right sidebar (empty on index page)
+  var rightCol = document.getElementById("cb-right-col");
+  if (rightCol) {
+    var sidebarInner = document.querySelector(".md-sidebar--secondary .md-sidebar__inner");
+    if (sidebarInner) {
+      sidebarInner.innerHTML = "";
+      sidebarInner.appendChild(rightCol);
+      rightCol.style.display = "flex";
+    }
+  }
+
   function getTable() {
     return document.getElementById("cb-table");
   }
