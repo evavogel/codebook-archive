@@ -186,27 +186,25 @@ def _build_index(rows: list[sqlite3.Row]) -> str:
         "",
         "# Political Communication Codebook Archive",
         "",
-        '<div id="cb-top-row">',
-        '<div id="cb-left">',
-        '<div id="cb-filter-row">',
-        "<span>Filter by topic:</span>",
-        filter_html,
-        "</div>",
-        '<input id="cb-search" type="text" placeholder="Search by title or author…" />',
-        '<div id="cb-count-label"></div>',
-        "</div>",
+        '<div id="cb-index-header">',
         '<aside class="cb-disclaimer">',
         "<strong>About this archive</strong>"
         "<p>Entries are discovered automatically by keyword search on "
         "<a href='https://osf.io'>OSF</a> and "
         "<a href='https://zenodo.org'>Zenodo</a>. "
-        "Each entry is then pre-screened by Claude Haiku 4.5 (Anthropic), "
+        "Each entry is then pre-screened by Claude Haiku 4.5 (Anthropic), "
         "which assesses whether an item is likely a codebook or annotation scheme "
         "used in political communication research. Classification results are not "
         "guaranteed to be correct. An entry may appear here even if it does not "
         "contain a codebook suitable for your research. Always check the linked "
         "source to see which files are available.</p>",
         "</aside>",
+        '<div id="cb-filter-row">',
+        "<span>Filter by topic:</span>",
+        filter_html,
+        "</div>",
+        '<input id="cb-search" type="text" placeholder="Search by title or author…" />',
+        '<div id="cb-count-label"></div>',
         "</div>",
         "",
         "| Title | Authors | Source | Year | Topics |",
