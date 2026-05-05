@@ -2,16 +2,37 @@ document.addEventListener("DOMContentLoaded", function () {
   var activeTag = "";
   var searchText = "";
 
-  // Inject right column into Material's right sidebar (empty on index page)
-  var rightCol = document.getElementById("cb-right-col");
-  if (rightCol) {
-    var sidebarInner = document.querySelector(".md-sidebar--secondary .md-sidebar__inner");
-    if (sidebarInner) {
-      sidebarInner.innerHTML = "";
-      sidebarInner.appendChild(rightCol);
-      rightCol.style.display = "flex";
+  // Position the right column boxes immediately after the content area's
+  // right edge. Measures the actual rendered position so it never overlaps.
+  function positionRightCol() {
+    var rightCol = document.getElementById("cb-right-col");
+    if (!rightCol) return;
+
+    var content = document.querySelector(".md-content__inner");
+    if (!content) return;
+
+    var rect = content.getBoundingClientRect();
+    var gap = 20;
+    var left = rect.right + gap;
+    var availableWidth = window.innerWidth - left - 12;
+
+    if (availableWidth < 180) {
+      rightCol.style.display = "none";
+      return;
     }
+
+    var width = Math.min(availableWidth, 380);
+
+    rightCol.style.position = "fixed";
+    rightCol.style.left = left + "px";
+    rightCol.style.top = "4.5rem";
+    rightCol.style.width = width + "px";
+    rightCol.style.display = "flex";
+    rightCol.style.right = "auto";
   }
+
+  positionRightCol();
+  window.addEventListener("resize", positionRightCol);
 
   function getTable() {
     return document.getElementById("cb-table");
@@ -51,7 +72,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  // Wire up filter buttons
   document.querySelectorAll(".cb-tag").forEach(function (btn) {
     btn.addEventListener("click", function () {
       document.querySelectorAll(".cb-tag").forEach(function (b) {
@@ -63,7 +83,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // Wire up search
   var searchEl = document.getElementById("cb-search");
   if (searchEl) {
     searchEl.addEventListener("input", function () {

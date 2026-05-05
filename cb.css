@@ -57,29 +57,12 @@
   width: 100%;
 }
 
-/* ── Right sidebar: widen it and kill the internal scroll ───────────────── */
-.md-sidebar--secondary {
-  width: 22rem;
-}
-.md-sidebar--secondary .md-sidebar__scrollwrap {
-  overflow-y: visible !important;
-  max-height: none !important;
-  height: auto !important;
-}
-.md-sidebar--secondary .md-sidebar__inner {
-  overflow: visible !important;
-  padding: 0 .5rem;
-}
-
-/* Right column — styled for when JS moves it into the sidebar */
+/* Right column — hidden until JS measures content and positions it */
 #cb-right-col {
-  display: none; /* shown once injected */
+  display: none;
   flex-direction: column;
   gap: .85rem;
-}
-
-@media (max-width: 900px) {
-  #cb-right-col { display: none !important; }
+  z-index: 10;
 }
 
 /* ── Filter bar ──────────────────────────────────────────────────────────── */
