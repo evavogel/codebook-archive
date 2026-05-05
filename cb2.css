@@ -18,8 +18,7 @@
 
 /* ── Shift grid to the left edge so table has maximum horizontal space ────── */
 .md-grid {
-  margin-left: 0 !important;
-  max-width: 1840px !important;
+  max-width: 1800px !important;
 }
 
 /* ── Override Material's inline-block table wrapper for our table ────────── */
