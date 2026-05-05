@@ -31,10 +31,10 @@ plugins:
   - search
 
 extra_css:
-  - custom.css
+  - cb.css
 
 extra_javascript:
-  - custom.js
+  - cb.js
 
 nav:
   - Codebooks: index.md
