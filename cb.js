@@ -11,9 +11,14 @@ document.addEventListener("DOMContentLoaded", function () {
     var content = document.querySelector(".md-content__inner");
     if (!content) return;
 
-    var rect = content.getBoundingClientRect();
-    var gap = 20;
-    var left = rect.right + gap;
+    // Measure the actual table right edge (it may overflow the content div)
+    var table = document.getElementById("cb-table");
+    var tableRight = table
+      ? Math.round(table.getBoundingClientRect().right)
+      : Math.round(content.getBoundingClientRect().right);
+
+    var gap = 36;
+    var left = tableRight + gap;
     var availableWidth = window.innerWidth - left - 12;
 
     if (availableWidth < 180) {
