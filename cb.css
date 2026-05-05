@@ -47,10 +47,15 @@
   text-decoration: underline;
 }
 
-/* ── Index layout: filter bar left, sidebar right ───────────────────────── */
+/* ── Widen Material content area for the archive ────────────────────────── */
+.md-grid {
+  max-width: 1600px;
+}
+
+/* ── Index layout: table left, sidebar right ────────────────────────────── */
 #cb-layout {
   display: flex;
-  gap: 2rem;
+  gap: 2.5rem;
   align-items: flex-start;
   margin-bottom: 1.2rem;
 }
@@ -61,7 +66,7 @@
 }
 
 #cb-right-col {
-  flex: 0 0 320px;
+  flex: 0 0 360px;
   display: flex;
   flex-direction: column;
   gap: .85rem;
@@ -70,9 +75,9 @@
   align-self: flex-start;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   #cb-layout { flex-direction: column; }
-  #cb-right-col { width: 100%; }
+  #cb-right-col { width: 100%; flex: none; }
 }
 
 /* ── Filter bar ──────────────────────────────────────────────────────────── */
